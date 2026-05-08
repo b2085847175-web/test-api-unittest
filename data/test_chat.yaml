@@ -1,0 +1,138 @@
+target_env: "dev"
+
+cases:
+# ============================================
+# 场景：储存方式
+# ============================================
+# 描述：买家咨询商品应如何保存、存放条件是什么，包括是否需要冷藏、冷冻、避光、密封、阴凉干燥保存、常温保存、开封后如何存放等。
+
+- name: scene_storage_method_01
+  turns:
+  - question: 这个要怎么保存
+    expect: 储存方式
+
+- name: scene_storage_method_02
+  turns:
+  - question: 需要冷藏吗
+    expect: 储存方式
+
+- name: scene_storage_method_03
+  turns:
+  - question: 要放冰箱吗
+    expect: 储存方式
+
+- name: scene_storage_method_04
+  turns:
+  - question: 常温保存可以吗
+    expect: 储存方式
+
+- name: scene_storage_method_05
+  turns:
+  - question: 开封后怎么保存
+    expect: 储存方式
+
+- name: scene_storage_method_06
+  turns:
+  - question: 要直立放吗
+    expect: 储存方式
+
+- name: scene_storage_method_07
+  turns:
+  - question: 要避光吗
+    expect: 储存方式
+
+- name: scene_storage_method_08
+  turns:
+  - question: 放在阴凉处就行吗
+    expect: 储存方式
+
+- name: scene_storage_method_09
+  turns:
+  - question: 需要密封保存吗
+    expect: 储存方式
+
+- name: scene_storage_method_10
+  turns:
+  - question: 要放干燥处吗
+    expect: 储存方式
+
+- name: scene_storage_method_11
+  turns:
+  - question: 能放浴室吗
+    expect: 储存方式
+
+- name: scene_storage_method_12
+  turns:
+  - question: 要冷冻吗
+    expect: 储存方式
+
+- name: scene_storage_method_13
+  turns:
+  - question: 这个产品平时怎么存放啊
+    expect: 储存方式
+
+- name: scene_storage_method_14
+  turns:
+  - question: 这个需要放在冰箱里面吗
+    expect: 储存方式
+
+- name: scene_storage_method_15
+  turns:
+  - question: 不冷藏的话会不会坏掉
+    expect: 储存方式
+
+- name: scene_storage_method_16
+  turns:
+  - question: 这个常温放着可以吗
+    expect: 储存方式
+
+- name: scene_storage_method_17
+  turns:
+  - question: 开封以后要怎么保存比较好
+    expect: 储存方式
+
+- name: scene_storage_method_18
+  turns:
+  - question: 这个要放在阴凉干燥的地方吗
+    expect: 储存方式
+
+- name: scene_storage_method_19
+  turns:
+  - question: 需要避开太阳直晒吗
+    expect: 储存方式
+
+- name: scene_storage_method_20
+  turns:
+  - question: 这个可以放在浴室里吗
+    expect: 储存方式
+
+- name: scene_storage_method_21
+  turns:
+  - question: 用完之后要不要密封起来
+    expect: 储存方式
+
+- name: scene_storage_method_22
+  turns:
+  - question: 这个要不要放冷冻层保存
+    expect: 储存方式
+
+- name: scene_storage_method_23
+  turns:
+  - question: 夏天温度高会不会影响保存
+    expect: 储存方式
+
+- name: scene_storage_method_24
+  turns:
+  - question: 这个放在室内就行还是要特别注意保存条件
+    expect: 储存方式
+
+- name: scene_storage_method_25
+  turns:
+  - question: 开盖之后能不能直接放桌上
+    expect: 储存方式
+
+- name: scene_storage_method_26
+  turns:
+  - question: 这个保存的时候需要竖着放吗
+    expect: 储存方式
+

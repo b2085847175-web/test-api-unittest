@@ -1,0 +1,224 @@
+target_env: "dev"
+
+cases:
+# 商品规格
+- name: scene_001_01
+  turns:
+  - question: 这个规格里面包含什么
+    expect: 商品规格
+- name: scene_001_02
+  turns:
+  - question: 这个套餐里都有啥
+    expect: 商品规格
+- name: scene_001_03
+  turns:
+  - question: 这一套具体都有什么
+    expect: 商品规格
+- name: scene_001_04
+  turns:
+  - question: 这个SKU都包含什么
+    expect: 商品规格
+- name: scene_001_05
+  turns:
+  - question: 这个规格配了哪些东西
+    expect: 商品规格
+
+# 容量/净含量/数量
+- name: scene_002_01
+  turns:
+  - question: 这款多少毫升
+    expect: 容量/净含量/数量
+- name: scene_002_02
+  turns:
+  - question: 净含量是多少
+    expect: 容量/净含量/数量
+- name: scene_002_03
+  turns:
+  - question: 这个是多少克
+    expect: 容量/净含量/数量
+- name: scene_002_04
+  turns:
+  - question: 一盒有几片
+    expect: 容量/净含量/数量
+- name: scene_002_05
+  turns:
+  - question: 一共有多少支
+    expect: 容量/净含量/数量
+
+# 颜色信息
+- name: scene_003_01
+  turns:
+  - question: 这个是什么颜色
+    expect: 颜色信息
+- name: scene_003_02
+  turns:
+  - question: 偏冷调还是暖调
+    expect: 颜色信息
+- name: scene_003_03
+  turns:
+  - question: 这个颜色深吗
+    expect: 颜色信息
+- name: scene_003_04
+  turns:
+  - question: 这是豆沙色吗
+    expect: 颜色信息
+- name: scene_003_05
+  turns:
+  - question: 有几个颜色
+    expect: 颜色信息
+
+# 功能/功效
+- name: scene_004_01
+  turns:
+  - question: 这款主打什么功效
+    expect: 功能/功效
+- name: scene_004_02
+  turns:
+  - question: 有保湿作用吗
+    expect: 功能/功效
+- name: scene_004_03
+  turns:
+  - question: 能修护吗
+    expect: 功能/功效
+- name: scene_004_04
+  turns:
+  - question: 有什么作用
+    expect: 功能/功效
+- name: scene_004_05
+  turns:
+  - question: 这个主要是干嘛的
+    expect: 功能/功效
+
+# 防护性能
+- name: scene_005_01
+  turns:
+  - question: 防水吗
+    expect: 防护性能
+- name: scene_005_02
+  turns:
+  - question: 防汗吗
+    expect: 防护性能
+- name: scene_005_03
+  turns:
+  - question: 防潮吗
+    expect: 防护性能
+- name: scene_005_04
+  turns:
+  - question: 防泼溅吗
+    expect: 防护性能
+- name: scene_005_05
+  turns:
+  - question: 防护等级是多少
+    expect: 防护性能
+
+# 稳定性表现
+- name: scene_006_01
+  turns:
+  - question: 会不会褪色
+    expect: 稳定性表现
+- name: scene_006_02
+  turns:
+  - question: 容易掉色吗
+    expect: 稳定性表现
+- name: scene_006_03
+  turns:
+  - question: 会不会脱落
+    expect: 稳定性表现
+- name: scene_006_04
+  turns:
+  - question: 会不会开裂
+    expect: 稳定性表现
+- name: scene_006_05
+  turns:
+  - question: 会不会沾色
+    expect: 稳定性表现
+
+# 持续时间
+- name: scene_007_01
+  turns:
+  - question: 能持续多久
+    expect: 持续时间
+- name: scene_007_02
+  turns:
+  - question: 效果能维持多久
+    expect: 持续时间
+- name: scene_007_03
+  turns:
+  - question: 气味能留多久
+    expect: 持续时间
+- name: scene_007_04
+  turns:
+  - question: 大概能撑几个小时
+    expect: 持续时间
+- name: scene_007_05
+  turns:
+  - question: 这个作用时间长吗
+    expect: 持续时间
+
+# 生产日期
+- name: scene_008_01
+  turns:
+  - question: 什么时候生产的
+    expect: 生产日期
+- name: scene_008_02
+  turns:
+  - question: 是近期生产的吗
+    expect: 生产日期
+- name: scene_008_03
+  turns:
+  - question: 离过期还有多久
+    expect: 生产日期
+- name: scene_008_04
+  turns:
+  - question: 这个批次新不新
+    expect: 生产日期
+
+# 商品材质
+- name: scene_009_01
+  turns:
+  - question: 这个瓶子是玻璃的吗
+    expect: 商品材质
+- name: scene_009_02
+  turns:
+  - question: 外壳是什么材质
+    expect: 商品材质
+- name: scene_009_03
+  turns:
+  - question: 刷毛是什么材质
+    expect: 商品材质
+- name: scene_009_04
+  turns:
+  - question: 泵头是金属的吗
+    expect: 商品材质
+- name: scene_009_05
+  turns:
+  - question: 内胆是什么材质
+    expect: 商品材质
+
+# 使用说明
+- name: scene_010_01
+  turns:
+  - question: 这个怎么用
+    expect: 使用说明
+- name: scene_010_02
+  turns:
+  - question: 具体使用步骤是什么
+    expect: 使用说明
+- name: scene_010_03
+  turns:
+  - question: 这个要怎么涂
+    expect: 使用说明
+- name: scene_010_04
+  turns:
+  - question: 怎么操作
+    expect: 使用说明
+- name: scene_010_05
+  turns:
+  - question: 正确用法是什么
+    expect: 使用说明
+
+# 注意事项
+- name: scene_011_01
+  turns:
+  - question: 使用时需要注意什么
+    expect: 注意事项

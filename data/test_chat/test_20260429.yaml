@@ -1,0 +1,17 @@
+target_env: "console"
+
+cases:
+  - name: "context_lactation_usage_inquiry"
+    context_messages:
+      - role: "user"
+        content: "哺乳期可以用吗？"
+      - role: "assistant"
+        content: "亲亲，这款是孕期和哺乳期妈妈都可以放心使用的呢"
+      - role: "assistant"
+        content: "它是温和安全的配方，您可以安心购买使用哈"
+      - role: "assistant"
+        content: "宝子，这边给您申请个隐藏福利，送您 1 份赠品小样(下图 8 选 1 )，拍下后告诉我给您加赠，不联系小客服备注无法赠送哦"
+      - role: "assistant"
+        content: "[图片消息]"
+    turns:
+      - question: "有没有口红之类的"

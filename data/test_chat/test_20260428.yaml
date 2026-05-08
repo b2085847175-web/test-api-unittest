@@ -1,0 +1,9 @@
+target_env: "dev"
+
+cases:
+  - name: "context_sunscreen_complaint"
+    context_messages:
+      - role: "user"
+        content: "防晒效果没有，一点不好用啊！抹完脸还黑"
+    turns:
+      - question: "要求退货"

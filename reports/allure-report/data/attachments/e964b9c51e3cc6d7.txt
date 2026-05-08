@@ -1,0 +1,1 @@
+{"type":"chat_response","code":200,"message":"success","data":{"username":"at_scene_two_tu_1774595966499_4a34","ai_actions":[{"actionType":"sendMessage","payload":{"contentType":"text","content":"宝宝，我们店铺赠送运费险的，您可以放心购买哈～"}}],"last_msg_time":1774595983},"request_id":"bd55dec1-c6b8-48ad-b146-1692d3b3633a"}

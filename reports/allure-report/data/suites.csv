@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Mar 27 15:20:46 CST 2026","Fri Mar 27 15:21:25 CST 2026","38915","testcases","test_chat_yaml","","","","test_chat_and_quality_flow[scene_two_turn_mixed_assert]",""

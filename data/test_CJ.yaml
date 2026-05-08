@@ -1,0 +1,4027 @@
+target_env: "dev"
+
+cases:
+# 商品规格
+- name: scene_001_01
+  turns:
+  - question: 这个规格里面包含什么
+    expect: 商品规格
+- name: scene_001_02
+  turns:
+  - question: 这个套餐里都有啥
+    expect: 商品规格
+- name: scene_001_03
+  turns:
+  - question: 这一套具体都有什么
+    expect: 商品规格
+- name: scene_001_04
+  turns:
+  - question: 这个SKU都包含什么
+    expect: 商品规格
+- name: scene_001_05
+  turns:
+  - question: 这个规格配了哪些东西
+    expect: 商品规格
+
+# 容量/净含量/数量
+- name: scene_002_01
+  turns:
+  - question: 这款多少毫升
+    expect: 容量/净含量/数量
+- name: scene_002_02
+  turns:
+  - question: 净含量是多少
+    expect: 容量/净含量/数量
+- name: scene_002_03
+  turns:
+  - question: 这个是多少克
+    expect: 容量/净含量/数量
+- name: scene_002_04
+  turns:
+  - question: 一盒有几片
+    expect: 容量/净含量/数量
+- name: scene_002_05
+  turns:
+  - question: 一共有多少支
+    expect: 容量/净含量/数量
+
+# 颜色信息
+- name: scene_003_01
+  turns:
+  - question: 这个是什么颜色
+    expect: 颜色信息
+- name: scene_003_02
+  turns:
+  - question: 偏冷调还是暖调
+    expect: 颜色信息
+- name: scene_003_03
+  turns:
+  - question: 这个颜色深吗
+    expect: 颜色信息
+- name: scene_003_04
+  turns:
+  - question: 这是豆沙色吗
+    expect: 颜色信息
+- name: scene_003_05
+  turns:
+  - question: 有几个颜色
+    expect: 颜色信息
+
+# 功能/功效
+- name: scene_004_01
+  turns:
+  - question: 这款主打什么功效
+    expect: 功能/功效
+- name: scene_004_02
+  turns:
+  - question: 有保湿作用吗
+    expect: 功能/功效
+- name: scene_004_03
+  turns:
+  - question: 能修护吗
+    expect: 功能/功效
+- name: scene_004_04
+  turns:
+  - question: 有什么作用
+    expect: 功能/功效
+- name: scene_004_05
+  turns:
+  - question: 这个主要是干嘛的
+    expect: 功能/功效
+
+# 防护性能
+- name: scene_005_01
+  turns:
+  - question: 防水吗
+    expect: 防护性能
+- name: scene_005_02
+  turns:
+  - question: 防汗吗
+    expect: 防护性能
+- name: scene_005_03
+  turns:
+  - question: 防潮吗
+    expect: 防护性能
+- name: scene_005_04
+  turns:
+  - question: 防泼溅吗
+    expect: 防护性能
+- name: scene_005_05
+  turns:
+  - question: 防护等级是多少
+    expect: 防护性能
+
+# 稳定性表现
+- name: scene_006_01
+  turns:
+  - question: 会不会褪色
+    expect: 稳定性表现
+- name: scene_006_02
+  turns:
+  - question: 容易掉色吗
+    expect: 稳定性表现
+- name: scene_006_03
+  turns:
+  - question: 会不会脱落
+    expect: 稳定性表现
+- name: scene_006_04
+  turns:
+  - question: 会不会开裂
+    expect: 稳定性表现
+- name: scene_006_05
+  turns:
+  - question: 会不会沾色
+    expect: 稳定性表现
+
+# 持续时间
+- name: scene_007_01
+  turns:
+  - question: 能持续多久
+    expect: 持续时间
+- name: scene_007_02
+  turns:
+  - question: 效果能维持多久
+    expect: 持续时间
+- name: scene_007_03
+  turns:
+  - question: 气味能留多久
+    expect: 持续时间
+- name: scene_007_04
+  turns:
+  - question: 大概能撑几个小时
+    expect: 持续时间
+- name: scene_007_05
+  turns:
+  - question: 这个作用时间长吗
+    expect: 持续时间
+
+# 生产日期
+- name: scene_008_01
+  turns:
+  - question: 什么时候生产的
+    expect: 生产日期
+- name: scene_008_02
+  turns:
+  - question: 是近期生产的吗
+    expect: 生产日期
+- name: scene_008_03
+  turns:
+  - question: 离过期还有多久
+    expect: 生产日期
+- name: scene_008_04
+  turns:
+  - question: 这个批次新不新
+    expect: 生产日期
+
+# 商品材质
+- name: scene_009_01
+  turns:
+  - question: 这个瓶子是玻璃的吗
+    expect: 商品材质
+- name: scene_009_02
+  turns:
+  - question: 外壳是什么材质
+    expect: 商品材质
+- name: scene_009_03
+  turns:
+  - question: 刷毛是什么材质
+    expect: 商品材质
+- name: scene_009_04
+  turns:
+  - question: 泵头是金属的吗
+    expect: 商品材质
+- name: scene_009_05
+  turns:
+  - question: 内胆是什么材质
+    expect: 商品材质
+
+# 使用说明
+- name: scene_010_01
+  turns:
+  - question: 这个怎么用
+    expect: 使用说明
+- name: scene_010_02
+  turns:
+  - question: 具体使用步骤是什么
+    expect: 使用说明
+- name: scene_010_03
+  turns:
+  - question: 这个要怎么涂
+    expect: 使用说明
+- name: scene_010_04
+  turns:
+  - question: 怎么操作
+    expect: 使用说明
+- name: scene_010_05
+  turns:
+  - question: 正确用法是什么
+    expect: 使用说明
+
+# 注意事项
+- name: scene_011_01
+  turns:
+  - question: 使用时需要注意什么
+    expect: 注意事项
+- name: scene_011_02
+  turns:
+  - question: 用了能不能晒太阳
+    expect: 注意事项
+- name: scene_011_03
+  turns:
+  - question: 白天能不能用
+    expect: 注意事项
+- name: scene_011_04
+  turns:
+  - question: 这个要避光吗
+    expect: 注意事项
+- name: scene_011_05
+  turns:
+  - question: 需要避开眼周吗
+    expect: 注意事项
+- name: scene_011_06
+  turns:
+  - question: 破皮的时候能用吗
+    expect: 注意事项
+- name: scene_011_07
+  turns:
+  - question: 有没有什么禁忌
+    expect: 注意事项
+- name: scene_011_08
+  turns:
+  - question: 哪些情况下不能用
+    expect: 注意事项
+- name: scene_011_09
+  turns:
+  - question: 使用前要不要先测试
+    expect: 注意事项
+
+# 是否有实物图
+- name: scene_012_01
+  turns:
+  - question: 有实物图吗
+    expect: 是否有实物图
+- name: scene_012_02
+  turns:
+  - question: 能看实物图片吗
+    expect: 是否有实物图
+- name: scene_012_03
+  turns:
+  - question: 能看看是什么样子吗
+    expect: 是否有实物图
+- name: scene_012_04
+  turns:
+  - question: 有商品图片吗
+    expect: 是否有实物图
+- name: scene_012_05
+  turns:
+  - question: 有实拍图吗
+    expect: 是否有实物图
+- name: scene_012_06
+  turns:
+  - question: 有效果图吗
+    expect: 是否有实物图
+
+# 咨询线下门店/专柜信息
+- name: scene_013_01
+  turns:
+  - question: 有实体店吗
+    expect: 咨询线下门店/专柜信息
+- name: scene_013_02
+  turns:
+  - question: 有线下门店吗
+    expect: 咨询线下门店/专柜信息
+- name: scene_013_03
+  turns:
+  - question: 有专柜吗
+    expect: 咨询线下门店/专柜信息
+- name: scene_013_04
+  turns:
+  - question: 你们有门店吗
+    expect: 咨询线下门店/专柜信息
+- name: scene_013_05
+  turns:
+  - question: 哪里有实体店
+    expect: 咨询线下门店/专柜信息
+- name: scene_013_06
+  turns:
+  - question: 有专卖店吗
+    expect: 咨询线下门店/专柜信息
+- name: scene_013_07
+  turns:
+  - question: 线下能买吗
+    expect: 咨询线下门店/专柜信息
+
+# 咨询线上线下商品是否一致
+- name: scene_014_01
+  turns:
+  - question: 线下门店卖的是一样的吗
+    expect: 咨询线上线下商品是否一致
+- name: scene_014_02
+  turns:
+  - question: 专柜卖的是一样的吗
+    expect: 咨询线上线下商品是否一致
+- name: scene_014_03
+  turns:
+  - question: 实体店卖的一样吗
+    expect: 咨询线上线下商品是否一致
+- name: scene_014_04
+  turns:
+  - question: 线上线下是一样的吗
+    expect: 咨询线上线下商品是否一致
+- name: scene_014_05
+  turns:
+  - question: 跟门店卖的是同款吗
+    expect: 咨询线上线下商品是否一致
+- name: scene_014_06
+  turns:
+  - question: 和专柜的是一样的吗
+    expect: 咨询线上线下商品是否一致
+- name: scene_014_07
+  turns:
+  - question: 线下和网上卖的是同一个吗
+    expect: 咨询线上线下商品是否一致
+- name: scene_014_08
+  turns:
+  - question: 网店和实体店一样吗
+    expect: 咨询线上线下商品是否一致
+
+# 商品推荐与选购建议
+- name: scene_015_01
+  turns:
+  - question: 推荐一下好用的
+    expect: 商品推荐与选购建议
+- name: scene_015_02
+  turns:
+  - question: 帮我推荐一下适合我的
+    expect: 商品推荐与选购建议
+- name: scene_015_03
+  turns:
+  - question: 有没有适合我的
+    expect: 商品推荐与选购建议
+- name: scene_015_04
+  turns:
+  - question: 你建议买哪个
+    expect: 商品推荐与选购建议
+- name: scene_015_05
+  turns:
+  - question: 哪个卖得最好
+    expect: 商品推荐与选购建议
+- name: scene_015_06
+  turns:
+  - question: 新手适合买哪个
+    expect: 商品推荐与选购建议
+- name: scene_015_07
+  turns:
+  - question: 第一次买选哪个
+    expect: 商品推荐与选购建议
+- name: scene_015_08
+  turns:
+  - question: 给我推荐一个
+    expect: 商品推荐与选购建议
+- name: scene_015_09
+  turns:
+  - question: 你们家卖得好的有哪些
+    expect: 商品推荐与选购建议
+- name: scene_015_10
+  turns:
+  - question: 推荐一下你们家卖得好的
+    expect: 商品推荐与选购建议
+
+# 咨询预售商品及规则
+- name: scene_016_01
+  turns:
+  - question: 这个是预售商品吗
+    expect: 咨询预售商品及规则
+- name: scene_016_02
+  turns:
+  - question: 这是现货还是预售
+    expect: 咨询预售商品及规则
+- name: scene_016_03
+  turns:
+  - question: 需要付定金才能买吗
+    expect: 咨询预售商品及规则
+- name: scene_016_04
+  turns:
+  - question: 是预约购买吗
+    expect: 咨询预售商品及规则
+- name: scene_016_05
+  turns:
+  - question: 预售和现货有什么区别
+    expect: 咨询预售商品及规则
+- name: scene_016_06
+  turns:
+  - question: 能预订吗
+    expect: 咨询预售商品及规则
+- name: scene_016_07
+  turns:
+  - question: 预售啥时候发
+    expect: 咨询预售商品及规则
+- name: scene_016_08
+  turns:
+  - question: 货期多久
+    expect: 咨询预售商品及规则
+- name: scene_016_09
+  turns:
+  - question: 预售多久能发
+    expect: 咨询预售商品及规则
+- name: scene_016_10
+  turns:
+  - question: 预售规则是什么
+    expect: 咨询预售商品及规则
+
+# 咨询商品补货时间
+- name: scene_017_01
+  turns:
+  - question: 什么时候补货
+    expect: 咨询商品补货时间
+- name: scene_017_02
+  turns:
+  - question: 还会补货吗
+    expect: 咨询商品补货时间
+- name: scene_017_03
+  turns:
+  - question: 大概什么时候有货
+    expect: 咨询商品补货时间
+- name: scene_017_04
+  turns:
+  - question: 缺货多久补
+    expect: 咨询商品补货时间
+- name: scene_017_05
+  turns:
+  - question: 什么时候恢复库存
+    expect: 咨询商品补货时间
+
+# 咨询送达时间
+- name: scene_018_01
+  turns:
+  - question: 几天能到
+    expect: 咨询送达时间
+- name: scene_018_02
+  turns:
+  - question: 发货后多久到
+    expect: 咨询送达时间
+- name: scene_018_03
+  turns:
+  - question: 物流要几天
+    expect: 咨询送达时间
+- name: scene_018_04
+  turns:
+  - question: 大概几天收到
+    expect: 咨询送达时间
+- name: scene_018_05
+  turns:
+  - question: 什么时候能收到
+    expect: 咨询送达时间
+- name: scene_018_06
+  turns:
+  - question: 多久送到
+    expect: 咨询送达时间
+
+# 咨询发货仓库/发货地
+- name: scene_019_01
+  turns:
+  - question: 从哪里发货
+    expect: 咨询发货仓库/发货地
+- name: scene_019_02
+  turns:
+  - question: 发货地是哪
+    expect: 咨询发货仓库/发货地
+- name: scene_019_03
+  turns:
+  - question: 从哪个仓库发
+    expect: 咨询发货仓库/发货地
+- name: scene_019_04
+  turns:
+  - question: 是哪个城市发货
+    expect: 咨询发货仓库/发货地
+- name: scene_019_05
+  turns:
+  - question: 从哪个地方的仓库发货
+    expect: 咨询发货仓库/发货地
+
+# 发货/配送时间特殊要求
+- name: scene_020_01
+  turns:
+  - question: 可以指定送货时间吗
+    expect: 发货/配送时间特殊要求
+- name: scene_020_02
+  turns:
+  - question: 能周末送吗
+    expect: 发货/配送时间特殊要求
+- name: scene_020_03
+  turns:
+  - question: 可以延迟发货吗
+    expect: 发货/配送时间特殊要求
+- name: scene_020_04
+  turns:
+  - question: 可以晚点再发吗
+    expect: 发货/配送时间特殊要求
+- name: scene_020_05
+  turns:
+  - question: 能指定哪天送吗
+    expect: 发货/配送时间特殊要求
+
+# 咨询保密发货/隐私发货
+- name: scene_021_01
+  turns:
+  - question: 可以保密发货吗
+    expect: 咨询保密发货/隐私发货
+- name: scene_021_02
+  turns:
+  - question: 能隐私发货吗
+    expect: 咨询保密发货/隐私发货
+- name: scene_021_03
+  turns:
+  - question: 可以匿名发货吗
+    expect: 咨询保密发货/隐私发货
+- name: scene_021_04
+  turns:
+  - question: 外包装不要显示商品信息
+    expect: 咨询保密发货/隐私发货
+
+# 咨询退款退货流程
+- name: scene_022_01
+  turns:
+  - question: 想退款怎么操作
+    expect: 咨询退款退货流程
+- name: scene_022_02
+  turns:
+  - question: 退款申请怎么填
+    expect: 咨询退款退货流程
+- name: scene_022_03
+  turns:
+  - question: 退货退款流程是什么
+    expect: 咨询退款退货流程
+- name: scene_022_04
+  turns:
+  - question: 退款原因填什么
+    expect: 咨询退款退货流程
+- name: scene_022_05
+  turns:
+  - question: 怎么申请退款
+    expect: 咨询退款退货流程
+- name: scene_022_06
+  turns:
+  - question: 退款要多久到账
+    expect: 咨询退款退货流程
+- name: scene_022_07
+  turns:
+  - question: 怎么取消退款
+    expect: 咨询退款退货流程
+- name: scene_022_08
+  turns:
+  - question: 退款的钱退哪里了
+    expect: 咨询退款退货流程
+- name: scene_022_09
+  turns:
+  - question: 退款被拒绝了咋办
+    expect: 咨询退款退货流程
+- name: scene_022_10
+  turns:
+  - question: 怎么取消退款
+    expect: 咨询退款退货流程
+- name: scene_022_11
+  turns:
+  - question: 退款审核要多久
+    expect: 咨询退款退货流程
+
+# 订单收货地址修改
+- name: scene_023_01
+  turns:
+  - question: 地址填错了可以改吗
+    expect: 订单收货地址修改
+- name: scene_023_02
+  turns:
+  - question: 帮我改一下收货地址
+    expect: 订单收货地址修改
+- name: scene_023_03
+  turns:
+  - question: 电话写错了能改吗
+    expect: 订单收货地址修改
+- name: scene_023_04
+  turns:
+  - question: 收件人名字能改吗
+    expect: 订单收货地址修改
+- name: scene_023_05
+  turns:
+  - question: 能换个地址发吗
+    expect: 订单收货地址修改
+- name: scene_023_06
+  turns:
+  - question: 门牌号写错了怎么改
+    expect: 订单收货地址修改
+
+# 催促发货
+- name: scene_024_01
+  turns:
+  - question: 麻烦尽快发货
+    expect: 催促发货
+- name: scene_024_02
+  turns:
+  - question: 帮我催一下发货
+    expect: 催促发货
+- name: scene_024_03
+  turns:
+  - question: 能不能先给我发
+    expect: 催促发货
+- name: scene_024_04
+  turns:
+  - question: 请尽快安排发出
+    expect: 催促发货
+- name: scene_024_05
+  turns:
+  - question: 能优先发货吗
+    expect: 催促发货
+
+# 投诉处理
+- name: scene_025_01
+  turns:
+  - question: 我要投诉
+    expect: 投诉处理
+- name: scene_025_02
+  turns:
+  - question: 我要举报你们
+    expect: 投诉处理
+- name: scene_025_03
+  turns:
+  - question: 我要申请平台介入
+    expect: 投诉处理
+- name: scene_025_04
+  turns:
+  - question: 这事我要维权
+    expect: 投诉处理
+- name: scene_025_05
+  turns:
+  - question: 帮我转投诉处理
+    expect: 投诉处理
+- name: scene_025_06
+  turns:
+  - question: 我要投诉你们客服
+    expect: 投诉处理
+- name: scene_025_07
+  turns:
+  - question: 不处理我就去投诉
+    expect: 投诉处理
+- name: scene_025_08
+  turns:
+  - question: 叫你们负责人来处理
+    expect: 投诉处理
+- name: scene_025_09
+  turns:
+  - question: 315曝光了，你们卖的是伪劣商品
+    expect: 投诉处理
+- name: scene_025_10
+  turns:
+  - question: 315都曝光了，你们还敢卖
+    expect: 投诉处理
+- name: scene_025_11
+  turns:
+  - question: 你们侵犯消费者权益了
+    expect: 投诉处理
+- name: scene_025_12
+  turns:
+  - question: 我要举报你们卖伪劣产品
+    expect: 投诉处理
+- name: scene_025_13
+  turns:
+  - question: 你们这是欺骗消费者
+    expect: 投诉处理
+- name: scene_025_14
+  turns:
+  - question: 这件事我要去12315投诉
+    expect: 投诉处理
+- name: scene_025_15
+  turns:
+  - question: 你们这种行为已经违法了
+    expect: 投诉处理
+- name: scene_025_16
+  turns:
+  - question: 这事我要追责到底
+    expect: 投诉处理
+
+# 不满意不喜欢
+- name: scene_026_01
+  turns:
+  - question: 用了感觉一般
+    expect: 不满意不喜欢
+- name: scene_026_02
+  turns:
+  - question: 用着不太满意
+    expect: 不满意不喜欢
+- name: scene_026_03
+  turns:
+  - question: 这个效果没我想的好
+    expect: 不满意不喜欢
+- name: scene_026_04
+  turns:
+  - question: 感觉不好用
+    expect: 不满意不喜欢
+- name: scene_026_05
+  turns:
+  - question: 体验不太行
+    expect: 不满意不喜欢
+- name: scene_026_06
+  turns:
+  - question: 没有预期那么好
+    expect: 不满意不喜欢
+- name: scene_026_07
+  turns:
+  - question: 感觉不太适合我
+    expect: 不满意不喜欢
+- name: scene_026_08
+  turns:
+  - question: 用后不喜欢
+    expect: 不满意不喜欢
+- name: scene_026_09
+  turns:
+  - question: 实际体验一般般
+    expect: 不满意不喜欢
+- name: scene_026_10
+  turns:
+  - question: 没想象中那么好
+    expect: 不满意不喜欢
+- name: scene_026_11
+  turns:
+  - question: 买回来用了下不太满意
+    expect: 不满意不喜欢
+- name: scene_026_12
+  turns:
+  - question: 这个我用着不舒服
+    expect: 不满意不喜欢
+- name: scene_026_13
+  turns:
+  - question: 感觉不值这个价
+    expect: 不满意不喜欢
+- name: scene_026_14
+  turns:
+  - question: 效果一般
+    expect: 不满意不喜欢
+- name: scene_026_15
+  turns:
+  - question: 没有宣传的那么好
+    expect: 不满意不喜欢
+
+# 奖品相关
+- name: scene_027_01
+  turns:
+  - question: 有奖品吗
+    expect: 奖品相关
+- name: scene_027_02
+  turns:
+  - question: 奖品在哪领
+    expect: 奖品相关
+- name: scene_027_03
+  turns:
+  - question: 奖品怎么兑换
+    expect: 奖品相关
+- name: scene_027_04
+  turns:
+  - question: 能换奖品吗
+    expect: 奖品相关
+- name: scene_027_05
+  turns:
+  - question: 活动奖品内容有哪些
+    expect: 奖品相关
+- name: scene_027_06
+  turns:
+  - question: 奖品什么时候发
+    expect: 奖品相关
+- name: scene_027_07
+  turns:
+  - question: 奖品是什么
+    expect: 奖品相关
+- name: scene_027_08
+  turns:
+  - question: 二等奖是什么
+    expect: 奖品相关
+- name: scene_027_09
+  turns:
+  - question: 虚拟奖品怎么用
+    expect: 奖品相关
+
+# 乘机乘车携带咨询
+- name: scene_028_01
+  turns:
+  - question: 可以带上飞机吗
+    expect: 乘机乘车携带咨询
+- name: scene_028_02
+  turns:
+  - question: 高铁能带吗
+    expect: 乘机乘车携带咨询
+- name: scene_028_03
+  turns:
+  - question: 可以飞机托运嘛
+    expect: 乘机乘车携带咨询
+- name: scene_028_04
+  turns:
+  - question: 能过安检吗
+    expect: 乘机乘车携带咨询
+- name: scene_028_05
+  turns:
+  - question: 过安检有问题吗
+    expect: 乘机乘车携带咨询
+- name: scene_028_06
+  turns:
+  - question: 可以带上动车吗
+    expect: 乘机乘车携带咨询
+- name: scene_028_07
+  turns:
+  - question: 火车能带吗
+    expect: 乘机乘车携带咨询
+- name: scene_028_08
+  turns:
+  - question: 带上高铁可以吗
+    expect: 乘机乘车携带咨询
+
+# 表示没关系
+- name: scene_029_01
+  turns:
+  - question: 没关系
+    expect: 表示没关系
+- name: scene_029_02
+  turns:
+  - question: 不要紧
+    expect: 表示没关系
+- name: scene_029_03
+  turns:
+  - question: 这个没关系
+    expect: 表示没关系
+- name: scene_029_04
+  turns:
+  - question: 没事的
+    expect: 表示没关系
+
+# 表示不理解
+- name: scene_030_01
+  turns:
+  - question: 完全看不懂
+    expect: 表示不理解
+- name: scene_030_02
+  turns:
+  - question: 不明白
+    expect: 表示不理解
+- name: scene_030_03
+  turns:
+  - question: 不太懂
+    expect: 表示不理解
+- name: scene_030_04
+  turns:
+  - question: 理解不了
+    expect: 表示不理解
+
+# 不要重复说
+- name: scene_031_01
+  turns:
+  - question: 别老是一句话
+    expect: 不要重复说
+- name: scene_031_02
+  turns:
+  - question: 你怎么老是说这一句话呢
+    expect: 不要重复说
+- name: scene_031_03
+  turns:
+  - question: 别老是发重复的
+    expect: 不要重复说
+- name: scene_031_04
+  turns:
+  - question: 怎么老是会这句话
+    expect: 不要重复说
+- name: scene_031_05
+  turns:
+  - question: 不要老说这几句话
+    expect: 不要重复说
+
+# 再见
+- name: scene_032_01
+  turns:
+  - question: 拜拜
+    expect: 再见
+- name: scene_032_02
+  turns:
+  - question: 再聊
+    expect: 再见
+- name: scene_032_03
+  turns:
+  - question: '886'
+    expect: 再见
+- name: scene_032_04
+  turns:
+  - question: 再见
+    expect: 再见
+- name: scene_032_05
+  turns:
+  - question: bye
+    expect: 再见
+
+# 表示已提交
+- name: scene_033_01
+  turns:
+  - question: 已申请
+    expect: 表示已提交
+- name: scene_033_02
+  turns:
+  - question: 我刚提交了
+    expect: 表示已提交
+- name: scene_033_03
+  turns:
+  - question: 申请完了
+    expect: 表示已提交
+
+# 表示否认
+- name: scene_034_01
+  turns:
+  - question: 不对
+    expect: 表示否认
+- name: scene_034_02
+  turns:
+  - question: 不是的
+    expect: 表示否认
+- name: scene_034_03
+  turns:
+  - question: 不可能
+    expect: 表示否认
+
+# 询问如何处理
+- name: scene_035_01
+  turns:
+  - question: 怎么办
+    expect: 询问如何处理
+- name: scene_035_02
+  turns:
+  - question: 怎么解决
+    expect: 询问如何处理
+- name: scene_035_03
+  turns:
+  - question: 怎么处理
+    expect: 询问如何处理
+- name: scene_035_04
+  turns:
+  - question: 你们怎么解决这个问题
+    expect: 询问如何处理
+- name: scene_035_05
+  turns:
+  - question: 没有效果怎么办
+    expect: 询问如何处理
+- name: scene_035_06
+  turns:
+  - question: 用了感觉没效果怎么办
+    expect: 询问如何处理
+- name: scene_035_07
+  turns:
+  - question: 没效果怎么处理
+    expect: 询问如何处理
+- name: scene_035_08
+  turns:
+  - question: 效果不好怎么办
+    expect: 询问如何处理
+
+# 表示满意
+- name: scene_036_01
+  turns:
+  - question: 很好
+    expect: 表示满意
+- name: scene_036_02
+  turns:
+  - question: 东西很好很喜欢
+    expect: 表示满意
+- name: scene_036_03
+  turns:
+  - question: 非常棒
+    expect: 表示满意
+- name: scene_036_04
+  turns:
+  - question: 很满意
+    expect: 表示满意
+- name: scene_036_05
+  turns:
+  - question: 很棒
+    expect: 表示满意
+
+# 表示确认
+- name: scene_037_01
+  turns:
+  - question: 嗯嗯
+    expect: 表示确认
+- name: scene_037_02
+  turns:
+  - question: 对的
+    expect: 表示确认
+- name: scene_037_03
+  turns:
+  - question: 好的
+    expect: 表示确认
+- name: scene_037_04
+  turns:
+  - question: 明白啦
+    expect: 表示确认
+- name: scene_037_05
+  turns:
+  - question: ok
+    expect: 表示确认
+- name: scene_037_06
+  turns:
+  - question: 知道了
+    expect: 表示确认
+- name: scene_037_07
+  turns:
+  - question: 可以
+    expect: 表示确认
+
+# 表示威胁/差评
+- name: scene_038_01
+  turns:
+  - question: 我差评了哦
+    expect: 表示威胁/差评
+- name: scene_038_02
+  turns:
+  - question: 已经差评了
+    expect: 表示威胁/差评
+- name: scene_038_03
+  turns:
+  - question: 服务差必须差评
+    expect: 表示威胁/差评
+- name: scene_038_04
+  turns:
+  - question: 别再发了，我给差评了
+    expect: 表示威胁/差评
+- name: scene_038_05
+  turns:
+  - question: 要不我就给你差评
+    expect: 表示威胁/差评
+
+# 要求回复
+- name: scene_039_01
+  turns:
+  - question: 麻烦给回复一下
+    expect: 要求回复
+- name: scene_039_02
+  turns:
+  - question: 看到了回复下
+    expect: 要求回复
+- name: scene_039_03
+  turns:
+  - question: 回我一下
+    expect: 要求回复
+
+# 求帮助
+- name: scene_040_01
+  turns:
+  - question: 拜托
+    expect: 求帮助
+- name: scene_040_02
+  turns:
+  - question: 帮下忙
+    expect: 求帮助
+- name: scene_040_03
+  turns:
+  - question: 求求了
+    expect: 求帮助
+- name: scene_040_04
+  turns:
+  - question: 求助求助
+    expect: 求帮助
+
+# 询问工作时间
+- name: scene_041_01
+  turns:
+  - question: 几点在线
+    expect: 询问工作时间
+- name: scene_041_02
+  turns:
+  - question: 客服几点上班呢
+    expect: 询问工作时间
+- name: scene_041_03
+  turns:
+  - question: 你们几点上班
+    expect: 询问工作时间
+
+# 在别家购买
+- name: scene_042_01
+  turns:
+  - question: 在另一家店买了
+    expect: 在别家购买
+- name: scene_042_02
+  turns:
+  - question: 已经买了另一家了
+    expect: 在别家购买
+- name: scene_042_03
+  turns:
+  - question: 在别的地方买了
+    expect: 在别家购买
+- name: scene_042_04
+  turns:
+  - question: 已经在别家店买了
+    expect: 在别家购买
+
+# 表示感谢
+- name: scene_043_01
+  turns:
+  - question: 谢谢啦
+    expect: 表示感谢
+- name: scene_043_02
+  turns:
+  - question: 好的谢谢
+    expect: 表示感谢
+- name: scene_043_03
+  turns:
+  - question: 感谢
+    expect: 表示感谢
+
+# 表示愤怒
+- name: scene_044_01
+  turns:
+  - question: 气死我了
+    expect: 表示愤怒
+- name: scene_044_02
+  turns:
+  - question: 烦死了
+    expect: 表示愤怒
+- name: scene_044_03
+  turns:
+  - question: 太坑了吧
+    expect: 表示愤怒
+- name: scene_044_04
+  turns:
+  - question: 恶心死了
+    expect: 表示愤怒
+
+# 打招呼
+- name: scene_045_01
+  turns:
+  - question: 你好呀
+    expect: 打招呼
+- name: scene_045_02
+  turns:
+  - question: 你好
+    expect: 打招呼
+- name: scene_045_03
+  turns:
+  - question: 中午好
+    expect: 打招呼
+- name: scene_045_04
+  turns:
+  - question: 你好，有人吗
+    expect: 打招呼
+- name: scene_045_05
+  turns:
+  - question: 在吗
+    expect: 打招呼
+- name: scene_045_06
+  turns:
+  - question: 在没
+    expect: 打招呼
+
+# 表示没找到
+- name: scene_046_01
+  turns:
+  - question: 没看到
+    expect: 表示没找到
+- name: scene_046_02
+  turns:
+  - question: 我没找到
+    expect: 表示没找到
+- name: scene_046_03
+  turns:
+  - question: 没看见
+    expect: 表示没找到
+- name: scene_046_04
+  turns:
+  - question: 没看到你发的
+    expect: 表示没找到
+
+# 表示找到了
+- name: scene_047_01
+  turns:
+  - question: 我看见了
+    expect: 表示找到了
+- name: scene_047_02
+  turns:
+  - question: 看到了
+    expect: 表示找到了
+- name: scene_047_03
+  turns:
+  - question: 找到了
+    expect: 表示找到了
+
+# 表示放弃
+- name: scene_048_01
+  turns:
+  - question: 那算了吧
+    expect: 表示放弃
+- name: scene_048_02
+  turns:
+  - question: 那算了
+    expect: 表示放弃
+- name: scene_048_03
+  turns:
+  - question: 那算了，就那样吧
+    expect: 表示放弃
+
+# 询问是否是机器人
+- name: scene_049_01
+  turns:
+  - question: 你是机器人吗
+    expect: 询问是否是机器人
+- name: scene_049_02
+  turns:
+  - question: 是人工客服吗
+    expect: 询问是否是机器人
+- name: scene_049_03
+  turns:
+  - question: 是机器人还是人工
+    expect: 询问是否是机器人
+- name: scene_049_04
+  turns:
+  - question: 来个真人
+    expect: 询问是否是机器人
+
+# 表示首次购买
+- name: scene_050_01
+  turns:
+  - question: 第一次买
+    expect: 表示首次购买
+- name: scene_050_02
+  turns:
+  - question: 我是第一次买你家的商品
+    expect: 表示首次购买
+- name: scene_050_03
+  turns:
+  - question: 第一次买这个
+    expect: 表示首次购买
+
+# 表示老客户
+- name: scene_051_01
+  turns:
+  - question: 我老客户了
+    expect: 表示老客户
+- name: scene_051_02
+  turns:
+  - question: 我是回头客
+    expect: 表示老客户
+- name: scene_051_03
+  turns:
+  - question: 在你家买很多次了
+    expect: 表示老客户
+- name: scene_051_04
+  turns:
+  - question: 我一直在你家买的
+    expect: 表示老客户
+
+# 表示需要考虑
+- name: scene_052_01
+  turns:
+  - question: 我再看看
+    expect: 表示需要考虑
+- name: scene_052_02
+  turns:
+  - question: 我考虑一下
+    expect: 表示需要考虑
+- name: scene_052_03
+  turns:
+  - question: 有点纠结
+    expect: 表示需要考虑
+- name: scene_052_04
+  turns:
+  - question: 我再想想吧
+    expect: 表示需要考虑
+
+# 表示失望
+- name: scene_053_01
+  turns:
+  - question: 太失望了
+    expect: 表示失望
+- name: scene_053_02
+  turns:
+  - question: 真让人失望
+    expect: 表示失望
+- name: scene_053_03
+  turns:
+  - question: 失望透顶
+    expect: 表示失望
+
+# 表示歉意
+- name: scene_054_01
+  turns:
+  - question: 麻烦了
+    expect: 表示歉意
+- name: scene_054_02
+  turns:
+  - question: 不好意思
+    expect: 表示歉意
+
+# 表示相信
+- name: scene_055_01
+  turns:
+  - question: 相信你们一次
+    expect: 表示相信
+- name: scene_055_02
+  turns:
+  - question: 我相信你
+    expect: 表示相信
+- name: scene_055_03
+  turns:
+  - question: 我相信你家
+    expect: 表示相信
+
+# 表示还会再来
+- name: scene_056_01
+  turns:
+  - question: 还会再来的
+    expect: 表示还会再来
+- name: scene_056_02
+  turns:
+  - question: 好的话下次还会再来的
+    expect: 表示还会再来
+- name: scene_056_03
+  turns:
+  - question: 要是好用的话下次还来
+    expect: 表示还会再来
+
+# 要求查看下
+- name: scene_057_01
+  turns:
+  - question: 你自己看下
+    expect: 要求查看下
+- name: scene_057_02
+  turns:
+  - question: 你们自己看看
+    expect: 要求查看下
+- name: scene_057_03
+  turns:
+  - question: 你看一下我发的什么
+    expect: 要求查看下
+- name: scene_057_04
+  turns:
+  - question: 你们看下聊天记录
+    expect: 要求查看下
+
+# 表示试试
+- name: scene_058_01
+  turns:
+  - question: 好的我试一下
+    expect: 表示试试
+- name: scene_058_02
+  turns:
+  - question: 我自己试试看
+    expect: 表示试试
+- name: scene_058_03
+  turns:
+  - question: 我先试一下
+    expect: 表示试试
+- name: scene_058_04
+  turns:
+  - question: 一会试试看吧
+    expect: 表示试试
+- name: scene_058_05
+  turns:
+  - question: 我试一下看看
+    expect: 表示试试
+
+# 辱骂
+- name: scene_059_01
+  turns:
+  - question: 垃圾
+    expect: 辱骂
+- name: scene_059_02
+  turns:
+  - question: 滚
+    expect: 辱骂
+- name: scene_059_03
+  turns:
+  - question: 有病
+    expect: 辱骂
+- name: scene_059_04
+  turns:
+  - question: 神经病
+    expect: 辱骂
+
+# 祝福祝愿
+- name: scene_060_01
+  turns:
+  - question: 祝老板生意兴隆财源广进
+    expect: 祝福祝愿
+- name: scene_060_02
+  turns:
+  - question: 老板生意发大财
+    expect: 祝福祝愿
+- name: scene_060_03
+  turns:
+  - question: 恭喜老板生意兴隆
+    expect: 祝福祝愿
+- name: scene_060_04
+  turns:
+  - question: 恭喜发财
+    expect: 祝福祝愿
+- name: scene_060_05
+  turns:
+  - question: 生意兴隆
+    expect: 祝福祝愿
+
+# 商品页面信息核实
+- name: scene_061_01
+  turns:
+  - question: 商品页面里的那个专家是谁
+    expect: 商品页面信息核实
+- name: scene_061_02
+  turns:
+  - question: 这个代言人是哪个机构的
+    expect: 商品页面信息核实
+- name: scene_061_03
+  turns:
+  - question: 页面上写的认证是真的还是假的
+    expect: 商品页面信息核实
+- name: scene_061_04
+  turns:
+  - question: 这个品牌宣传信息可信么
+    expect: 商品页面信息核实
+- name: scene_061_05
+  turns:
+  - question: 页面上的人物信息能核实吗
+    expect: 商品页面信息核实
+- name: scene_061_06
+  turns:
+  - question: 这个不是你家的产品吗
+    expect: 商品页面信息核实
+- name: scene_061_07
+  turns:
+  - question: 这个商品是你们家的吗
+    expect: 商品页面信息核实
+
+# 订单备注问题
+- name: scene_062_01
+  turns:
+  - question: 可以备注吗
+    expect: 订单备注问题
+- name: scene_062_02
+  turns:
+  - question: 订单怎么加备注
+    expect: 订单备注问题
+- name: scene_062_03
+  turns:
+  - question: 能帮我备注一下吗
+    expect: 订单备注问题
+- name: scene_062_04
+  turns:
+  - question: 忘记写备注了
+    expect: 订单备注问题
+- name: scene_062_05
+  turns:
+  - question: 备注内容能改吗
+    expect: 订单备注问题
+- name: scene_062_06
+  turns:
+  - question: 帮我在订单里写个备注
+    expect: 订单备注问题
+- name: scene_062_07
+  turns:
+  - question: 备注发货时间
+    expect: 订单备注问题
+- name: scene_062_08
+  turns:
+  - question: 备注颜色和尺寸
+    expect: 订单备注问题
+- name: scene_062_09
+  turns:
+  - question: 可以按备注发货吗
+    expect: 订单备注问题
+
+# 运费险与退运费服务
+- name: scene_063_01
+  turns:
+  - question: 这个商品有运费险吗
+    expect: 运费险与退运费服务
+- name: scene_063_02
+  turns:
+  - question: 运费险怎么理赔
+    expect: 运费险与退运费服务
+- name: scene_063_03
+  turns:
+  - question: 没买到运费险怎么办
+    expect: 运费险与退运费服务
+- name: scene_063_04
+  turns:
+  - question: 运费险能退吗
+    expect: 运费险与退运费服务
+- name: scene_063_05
+  turns:
+  - question: 你们的运费险怎么用
+    expect: 运费险与退运费服务
+- name: scene_063_06
+  turns:
+  - question: 运费险要钱吗
+    expect: 运费险与退运费服务
+- name: scene_063_07
+  turns:
+  - question: 运费险什么时候生效
+    expect: 运费险与退运费服务
+- name: scene_063_08
+  turns:
+  - question: 我想买个运费险
+    expect: 运费险与退运费服务
+- name: scene_063_09
+  turns:
+  - question: 运费险是赠送的吗
+    expect: 运费险与退运费服务
+
+# 赠品相关
+- name: scene_064_01
+  turns:
+  - question: 赠品什么时候发
+    expect: 赠品相关
+- name: scene_064_02
+  turns:
+  - question: 赠品可以换别的吗
+    expect: 赠品相关
+- name: scene_064_03
+  turns:
+  - question: 赠品少发了咋办
+    expect: 赠品相关
+- name: scene_064_04
+  turns:
+  - question: 可以不要赠品吗
+    expect: 赠品相关
+- name: scene_064_05
+  turns:
+  - question: 有买送活动吗
+    expect: 赠品相关
+- name: scene_064_06
+  turns:
+  - question: 赠品是随机发吗
+    expect: 赠品相关
+- name: scene_064_07
+  turns:
+  - question: 我想多要个赠品行不行
+    expect: 赠品相关
+
+# 咨询退款退货条件
+- name: scene_065_01
+  turns:
+  - question: 可以只退一件吗
+    expect: 咨询退款退货条件
+- name: scene_065_02
+  turns:
+  - question: 我不想要了能退吗
+    expect: 咨询退款退货条件
+- name: scene_065_03
+  turns:
+  - question: 没发货能退吗
+    expect: 咨询退款退货条件
+- name: scene_065_04
+  turns:
+  - question: 拆封了还能退吗
+    expect: 咨询退款退货条件
+- name: scene_065_05
+  turns:
+  - question: 包装拆了能退货吗
+    expect: 咨询退款退货条件
+- name: scene_065_06
+  turns:
+  - question: 没有效果能退吗
+    expect: 咨询退款退货条件
+- name: scene_065_07
+  turns:
+  - question: 无效可以退款吗
+    expect: 咨询退款退货条件
+- name: scene_065_08
+  turns:
+  - question: 退款是全额退款吗
+    expect: 咨询退款退货条件
+
+# 发票开具与管理
+- name: scene_066_01
+  turns:
+  - question: 能开电子发票吗
+    expect: 发票开具与管理
+- name: scene_066_02
+  turns:
+  - question: 发票抬头怎么填
+    expect: 发票开具与管理
+- name: scene_066_03
+  turns:
+  - question: 发票什么时候能开
+    expect: 发票开具与管理
+- name: scene_066_04
+  turns:
+  - question: 可以开增值税专票吗
+    expect: 发票开具与管理
+- name: scene_066_05
+  turns:
+  - question: 发票金额不对怎么办
+    expect: 发票开具与管理
+- name: scene_066_06
+  turns:
+  - question: 要发票怎么弄
+    expect: 发票开具与管理
+- name: scene_066_07
+  turns:
+  - question: 发票能单独寄吗
+    expect: 发票开具与管理
+- name: scene_066_08
+  turns:
+  - question: 公司报销要什么发票
+    expect: 发票开具与管理
+- name: scene_066_09
+  turns:
+  - question: 发票开错了能改吗
+    expect: 发票开具与管理
+- name: scene_066_10
+  turns:
+  - question: 能给开张收据吗
+    expect: 发票开具与管理
+- name: scene_066_11
+  turns:
+  - question: 发票在哪里下载
+    expect: 发票开具与管理
+- name: scene_066_12
+  turns:
+  - question: 我想合并开发票
+    expect: 发票开具与管理
+- name: scene_066_13
+  turns:
+  - question: 发票能抽奖吗
+    expect: 发票开具与管理
+- name: scene_066_14
+  turns:
+  - question: 开发票需要多长时间
+    expect: 发票开具与管理
+- name: scene_066_15
+  turns:
+  - question: 开票是否可以加急处理
+    expect: 发票开具与管理
+
+# 安装服务详情
+- name: scene_067_01
+  turns:
+  - question: 你们包安装吗
+    expect: 安装服务详情
+- name: scene_067_02
+  turns:
+  - question: 安装要另外收费吗
+    expect: 安装服务详情
+- name: scene_067_03
+  turns:
+  - question: 怎么预约安装师傅
+    expect: 安装服务详情
+- name: scene_067_04
+  turns:
+  - question: 安装教程有吗
+    expect: 安装服务详情
+- name: scene_067_05
+  turns:
+  - question: 能自己装吗
+    expect: 安装服务详情
+- name: scene_067_06
+  turns:
+  - question: 附近有安装点吗
+    expect: 安装服务详情
+- name: scene_067_07
+  turns:
+  - question: 安装要多久时间
+    expect: 安装服务详情
+- name: scene_067_08
+  turns:
+  - question: 送装一体是什么意思
+    expect: 安装服务详情
+- name: scene_067_09
+  turns:
+  - question: 挂墙上怎么收费
+    expect: 安装服务详情
+- name: scene_067_10
+  turns:
+  - question: 不包安装能买吗
+    expect: 安装服务详情
+
+# 售后维修支持
+- name: scene_068_01
+  turns:
+  - question: 这个东西坏了能修吗
+    expect: 售后维修支持
+- name: scene_068_02
+  turns:
+  - question: 有售后保障吗
+    expect: 售后维修支持
+- name: scene_068_03
+  turns:
+  - question: 质保期是多久
+    expect: 售后维修支持
+- name: scene_068_04
+  turns:
+  - question: 维修点在什么地方
+    expect: 售后维修支持
+- name: scene_068_05
+  turns:
+  - question: 怎么申请售后
+    expect: 售后维修支持
+- name: scene_068_06
+  turns:
+  - question: 售后要钱吗
+    expect: 售后维修支持
+- name: scene_068_07
+  turns:
+  - question: 我可以自己寄回去修吗
+    expect: 售后维修支持
+- name: scene_068_08
+  turns:
+  - question: 这能换新的吗
+    expect: 售后维修支持
+- name: scene_068_09
+  turns:
+  - question: 维修运费谁出
+    expect: 售后维修支持
+- name: scene_068_10
+  turns:
+  - question: 售后电话是多少
+    expect: 售后维修支持
+
+# 换货流程及规则
+- name: scene_069_01
+  turns:
+  - question: 我想换个码数
+    expect: 换货流程及规则
+- name: scene_069_02
+  turns:
+  - question: 换货流程是怎样的
+    expect: 换货流程及规则
+- name: scene_069_03
+  turns:
+  - question: 能换个颜色吗
+    expect: 换货流程及规则
+- name: scene_069_04
+  turns:
+  - question: 换货要补差价吗
+    expect: 换货流程及规则
+- name: scene_069_05
+  turns:
+  - question: 换货快递单号给我
+    expect: 换货流程及规则
+- name: scene_069_06
+  turns:
+  - question: 怎么申请换货
+    expect: 换货流程及规则
+- name: scene_069_07
+  turns:
+  - question: 可以换其他款式吗
+    expect: 换货流程及规则
+- name: scene_069_08
+  turns:
+  - question: 帮我换成大码的
+    expect: 换货流程及规则
+- name: scene_069_09
+  turns:
+  - question: 换货申请怎么取消了
+    expect: 换货流程及规则
+- name: scene_069_10
+  turns:
+  - question: 换货要自己出运费吗
+    expect: 换货流程及规则
+
+# 破损变质处理方案
+- name: scene_070_01
+  turns:
+  - question: 收到的东西坏了
+    expect: 破损变质处理方案
+- name: scene_070_02
+  turns:
+  - question: 东西都碎了
+    expect: 破损变质处理方案
+- name: scene_070_03
+  turns:
+  - question: 收到变质商品了
+    expect: 破损变质处理方案
+- name: scene_070_04
+  turns:
+  - question: 包装破损严重
+    expect: 破损变质处理方案
+- name: scene_070_05
+  turns:
+  - question: 坏了一个赔吗
+    expect: 破损变质处理方案
+- name: scene_070_06
+  turns:
+  - question: 收到的东西臭了
+    expect: 破损变质处理方案
+- name: scene_070_07
+  turns:
+  - question: 这能赔吗
+    expect: 破损变质处理方案
+- name: scene_070_08
+  turns:
+  - question: 都发霉了咋办
+    expect: 破损变质处理方案
+- name: scene_070_09
+  turns:
+  - question: 坏了包赔是真的吗
+    expect: 破损变质处理方案
+- name: scene_070_10
+  turns:
+  - question: 实物有损伤
+    expect: 破损变质处理方案
+
+# 实物与描述不符处理
+- name: scene_071_01
+  turns:
+  - question: 跟图片不一样啊
+    expect: 实物与描述不符处理
+- name: scene_071_02
+  turns:
+  - question: 实物和图片差别太大
+    expect: 实物与描述不符处理
+- name: scene_071_03
+  turns:
+  - question: 这个跟图片相符吗
+    expect: 实物与描述不符处理
+- name: scene_071_04
+  turns:
+  - question: 收到货跟图片不一样
+    expect: 实物与描述不符处理
+- name: scene_071_05
+  turns:
+  - question: 是不是货不对板
+    expect: 实物与描述不符处理
+- name: scene_071_06
+  turns:
+  - question: 怎么跟图片差这么多
+    expect: 实物与描述不符处理
+- name: scene_071_07
+  turns:
+  - question: 实物有出入吗
+    expect: 实物与描述不符处理
+- name: scene_071_08
+  turns:
+  - question: 这衣服和图片一样吗
+    expect: 实物与描述不符处理
+
+# 价格保护政策
+- name: scene_072_01
+  turns:
+  - question: 这个有保价吗
+    expect: 价格保护政策
+- name: scene_072_02
+  turns:
+  - question: 价格保护是多久
+    expect: 价格保护政策
+- name: scene_072_03
+  turns:
+  - question: 能申请价保吗
+    expect: 价格保护政策
+- name: scene_072_04
+  turns:
+  - question: 保价从什么时候算
+    expect: 价格保护政策
+- name: scene_072_05
+  turns:
+  - question: 有价格保护服务吗
+    expect: 价格保护政策
+- name: scene_072_06
+  turns:
+  - question: 怎么申请价保
+    expect: 价格保护政策
+- name: scene_072_07
+  turns:
+  - question: 支持保价吗
+    expect: 价格保护政策
+- name: scene_072_08
+  turns:
+  - question: 保价条件是什么
+    expect: 价格保护政策
+
+# 价格差额处理
+- name: scene_073_01
+  turns:
+  - question: 换货要补多少钱
+    expect: 价格差额处理
+- name: scene_073_02
+  turns:
+  - question: 有差价能退吗
+    expect: 价格差额处理
+- name: scene_073_03
+  turns:
+  - question: 怎么补差价
+    expect: 价格差额处理
+- name: scene_073_04
+  turns:
+  - question: 这个差价能补吗
+    expect: 价格差额处理
+- name: scene_073_05
+  turns:
+  - question: 能退差价给我吗
+    expect: 价格差额处理
+- name: scene_073_06
+  turns:
+  - question: 差价能退回吗
+    expect: 价格差额处理
+- name: scene_073_07
+  turns:
+  - question: 价格差太多了
+    expect: 价格差额处理
+- name: scene_073_08
+  turns:
+  - question: 怎么处理差价
+    expect: 价格差额处理
+- name: scene_073_09
+  turns:
+  - question: 补差价怎么操作
+    expect: 价格差额处理
+- name: scene_073_10
+  turns:
+  - question: 买贵了能退差价吗
+    expect: 价格差额处理
+- name: scene_073_11
+  turns:
+  - question: 刚买就降价了能补吗
+    expect: 价格差额处理
+- name: scene_073_12
+  turns:
+  - question: 价格降了给我退差价
+    expect: 价格差额处理
+
+# 商品对比与差异说明
+- name: scene_074_01
+  turns:
+  - question: 这两款有什么不同
+    expect: 商品对比与差异说明
+- name: scene_074_02
+  turns:
+  - question: 这两个有啥区别
+    expect: 商品对比与差异说明
+- name: scene_074_03
+  turns:
+  - question: 功能有什么区别
+    expect: 商品对比与差异说明
+- name: scene_074_04
+  turns:
+  - question: 这两款区别是什么
+    expect: 商品对比与差异说明
+- name: scene_074_05
+  turns:
+  - question: 这两个有什么不一样
+    expect: 商品对比与差异说明
+- name: scene_074_06
+  turns:
+  - question: 这三个有什么区别
+    expect: 商品对比与差异说明
+- name: scene_074_07
+  turns:
+  - question: 价格不同差在哪里
+    expect: 商品对比与差异说明
+- name: scene_074_08
+  turns:
+  - question: 不同版本差在哪
+    expect: 商品对比与差异说明
+- name: scene_074_09
+  turns:
+  - question: 不同款式有啥区别
+    expect: 商品对比与差异说明
+
+# 对商品的疑问
+- name: scene_075_01
+  turns:
+  - question: 评价很差能买吗
+    expect: 对商品的疑问
+- name: scene_075_02
+  turns:
+  - question: 这个好用吗
+    expect: 对商品的疑问
+- name: scene_075_03
+  turns:
+  - question: 效果怎么样
+    expect: 对商品的疑问
+- name: scene_075_04
+  turns:
+  - question: 看评价不太好啊
+    expect: 对商品的疑问
+- name: scene_075_05
+  turns:
+  - question: 真的有效吗
+    expect: 对商品的疑问
+- name: scene_075_06
+  turns:
+  - question: 会不会没效果
+    expect: 对商品的疑问
+- name: scene_075_07
+  turns:
+  - question: 大家说这个一般
+    expect: 对商品的疑问
+- name: scene_075_08
+  turns:
+  - question: 版型如何
+    expect: 对商品的疑问
+- name: scene_075_09
+  turns:
+  - question: 评价不好呀
+    expect: 对商品的疑问
+
+# 商品质量相关
+- name: scene_076_01
+  turns:
+  - question: 质量靠谱吗
+    expect: 商品质量相关
+- name: scene_076_02
+  turns:
+  - question: 做工怎么样
+    expect: 商品质量相关
+- name: scene_076_03
+  turns:
+  - question: 这是什么材质
+    expect: 商品质量相关
+- name: scene_076_04
+  turns:
+  - question: 会不会有瑕疵
+    expect: 商品质量相关
+- name: scene_076_05
+  turns:
+  - question: 品控怎么样
+    expect: 商品质量相关
+- name: scene_076_06
+  turns:
+  - question: 有质检报告吗
+    expect: 商品质量相关
+- name: scene_076_07
+  turns:
+  - question: 质量保证吗
+    expect: 商品质量相关
+- name: scene_076_08
+  turns:
+  - question: 会不会有质量问题
+    expect: 商品质量相关
+- name: scene_076_09
+  turns:
+  - question: 感觉像是次品
+    expect: 商品质量相关
+- name: scene_076_10
+  turns:
+  - question: 手感怎么样
+    expect: 商品质量相关
+- name: scene_076_11
+  turns:
+  - question: 用料扎实吗
+    expect: 商品质量相关
+
+# 商品定制说明
+- name: scene_077_01
+  turns:
+  - question: 能定做吗
+    expect: 商品定制说明
+- name: scene_077_02
+  turns:
+  - question: 刻字怎么收费
+    expect: 商品定制说明
+- name: scene_077_03
+  turns:
+  - question: 定制要多长时间
+    expect: 商品定制说明
+- name: scene_077_04
+  turns:
+  - question: 来图定制行吗
+    expect: 商品定制说明
+- name: scene_077_05
+  turns:
+  - question: diy可以吗
+    expect: 商品定制说明
+- name: scene_077_06
+  turns:
+  - question: 能加logo吗
+    expect: 商品定制说明
+- name: scene_077_07
+  turns:
+  - question: 定尺寸行不行
+    expect: 商品定制说明
+- name: scene_077_08
+  turns:
+  - question: 能帮我设计下吗
+    expect: 商品定制说明
+- name: scene_077_09
+  turns:
+  - question: 定制怎么收费
+    expect: 商品定制说明
+- name: scene_077_10
+  turns:
+  - question: 字数有限制吗
+    expect: 商品定制说明
+
+# 商品产地与货源
+- name: scene_078_01
+  turns:
+  - question: 这是哪生产的
+    expect: 商品产地与货源
+- name: scene_078_02
+  turns:
+  - question: 厂家在哪里
+    expect: 商品产地与货源
+- name: scene_078_03
+  turns:
+  - question: 是国产的吗
+    expect: 商品产地与货源
+- name: scene_078_04
+  turns:
+  - question: 有实体店吗
+    expect: 商品产地与货源
+- name: scene_078_05
+  turns:
+  - question: 生产地是哪
+    expect: 商品产地与货源
+- name: scene_078_06
+  turns:
+  - question: 有专柜吗
+    expect: 商品产地与货源
+- name: scene_078_07
+  turns:
+  - question: 哪个公司生产的
+    expect: 商品产地与货源
+- name: scene_078_08
+  turns:
+  - question: 产地是哪里
+    expect: 商品产地与货源
+
+# 咨询商品库存
+- name: scene_079_01
+  turns:
+  - question: 还有现货吗
+    expect: 咨询商品库存
+- name: scene_079_02
+  turns:
+  - question: 还有货吗
+    expect: 咨询商品库存
+- name: scene_079_03
+  turns:
+  - question: 这个卖完了吗
+    expect: 咨询商品库存
+- name: scene_079_04
+  turns:
+  - question: 这个有库存吗
+    expect: 咨询商品库存
+
+# 包装与礼袋服务
+- name: scene_080_01
+  turns:
+  - question: 能送个礼品袋吗
+    expect: 包装与礼袋服务
+- name: scene_080_02
+  turns:
+  - question: 需要礼盒包装吗
+    expect: 包装与礼袋服务
+- name: scene_080_03
+  turns:
+  - question: 有包装吗
+    expect: 包装与礼袋服务
+- name: scene_080_04
+  turns:
+  - question: 包装怎么收费
+    expect: 包装与礼袋服务
+- name: scene_080_05
+  turns:
+  - question: 需要礼品袋吗
+    expect: 包装与礼袋服务
+- name: scene_080_06
+  turns:
+  - question: 这个包装好看吗
+    expect: 包装与礼袋服务
+- name: scene_080_07
+  turns:
+  - question: 能包装一下送人吗
+    expect: 包装与礼袋服务
+- name: scene_080_08
+  turns:
+  - question: 包装要加钱吗
+    expect: 包装与礼袋服务
+- name: scene_080_09
+  turns:
+  - question: 是礼盒装吗
+    expect: 包装与礼袋服务
+- name: scene_080_10
+  turns:
+  - question: 包装规格多大
+    expect: 包装与礼袋服务
+
+# 咨询商品是否单售
+- name: scene_081_01
+  turns:
+  - question: 能单买一个吗
+    expect: 咨询商品是否单售
+- name: scene_081_02
+  turns:
+  - question: 这个单卖吗
+    expect: 咨询商品是否单售
+- name: scene_081_03
+  turns:
+  - question: 能拆开卖吗
+    expect: 咨询商品是否单售
+- name: scene_081_04
+  turns:
+  - question: 只买一个行吗
+    expect: 咨询商品是否单售
+- name: scene_081_05
+  turns:
+  - question: 能单独买这个吗
+    expect: 咨询商品是否单售
+- name: scene_081_06
+  turns:
+  - question: 不买套餐可以吗
+    expect: 咨询商品是否单售
+- name: scene_081_07
+  turns:
+  - question: 单只多少钱
+    expect: 咨询商品是否单售
+- name: scene_081_08
+  turns:
+  - question: 我想单买一个
+    expect: 咨询商品是否单售
+
+# 商品价格及变动
+- name: scene_082_01
+  turns:
+  - question: 怎么涨价了
+    expect: 商品价格及变动
+- name: scene_082_02
+  turns:
+  - question: 价格有变动吗
+    expect: 商品价格及变动
+- name: scene_082_03
+  turns:
+  - question: 现在什么价
+    expect: 商品价格及变动
+- name: scene_082_04
+  turns:
+  - question: 比之前贵了
+    expect: 商品价格及变动
+- name: scene_082_05
+  turns:
+  - question: 价格调整了吗
+    expect: 商品价格及变动
+- name: scene_082_06
+  turns:
+  - question: 这是原价吗
+    expect: 商品价格及变动
+- name: scene_082_07
+  turns:
+  - question: 折扣后多少钱
+    expect: 商品价格及变动
+- name: scene_082_08
+  turns:
+  - question: 今天什么价格
+    expect: 商品价格及变动
+- name: scene_082_09
+  turns:
+  - question: 为什么价格不一样
+    expect: 商品价格及变动
+
+# 代写贺卡服务
+- name: scene_083_01
+  turns:
+  - question: 能代写贺卡吗
+    expect: 代写贺卡服务
+- name: scene_083_02
+  turns:
+  - question: 能加张贺卡吗
+    expect: 代写贺卡服务
+- name: scene_083_03
+  turns:
+  - question: 能写祝福语吗
+    expect: 代写贺卡服务
+- name: scene_083_04
+  turns:
+  - question: 有代写服务吗
+    expect: 代写贺卡服务
+- name: scene_083_05
+  turns:
+  - question: 可以放卡片吗
+    expect: 代写贺卡服务
+- name: scene_083_06
+  turns:
+  - question: 能帮忙写个卡片吗
+    expect: 代写贺卡服务
+- name: scene_083_07
+  turns:
+  - question: 贺卡怎么收费
+    expect: 代写贺卡服务
+- name: scene_083_08
+  turns:
+  - question: 这个支持贺卡吗
+    expect: 代写贺卡服务
+- name: scene_083_09
+  turns:
+  - question: 想要贺卡怎么弄
+    expect: 代写贺卡服务
+
+# 品牌咨询
+- name: scene_084_01
+  turns:
+  - question: 这是什么牌
+    expect: 品牌咨询
+- name: scene_084_02
+  turns:
+  - question: 哪个牌子
+    expect: 品牌咨询
+- name: scene_084_03
+  turns:
+  - question: 是什么品牌
+    expect: 品牌咨询
+- name: scene_084_04
+  turns:
+  - question: 品牌授权了吗
+    expect: 品牌咨询
+- name: scene_084_05
+  turns:
+  - question: 牌子是哪个
+    expect: 品牌咨询
+- name: scene_084_06
+  turns:
+  - question: 属于哪个品牌
+    expect: 品牌咨询
+- name: scene_084_07
+  turns:
+  - question: 什么时候注册的
+    expect: 品牌咨询
+
+# 买家对高价敏感
+- name: scene_085_01
+  turns:
+  - question: 价格能便宜点吗
+    expect: 买家对高价敏感
+- name: scene_085_02
+  turns:
+  - question: 价格太高了
+    expect: 买家对高价敏感
+- name: scene_085_03
+  turns:
+  - question: 能给个优惠吗
+    expect: 买家对高价敏感
+- name: scene_085_04
+  turns:
+  - question: 有点贵啊
+    expect: 买家对高价敏感
+- name: scene_085_05
+  turns:
+  - question: 能打个折吗
+    expect: 买家对高价敏感
+- name: scene_085_06
+  turns:
+  - question: 怎么比别人贵
+    expect: 买家对高价敏感
+- name: scene_085_07
+  turns:
+  - question: 能降点价吗
+    expect: 买家对高价敏感
+- name: scene_085_08
+  turns:
+  - question: 价格能商量吗
+    expect: 买家对高价敏感
+
+# 安全标准相关
+- name: scene_086_01
+  turns:
+  - question: 安全等级多少
+    expect: 安全标准相关
+- name: scene_086_02
+  turns:
+  - question: 符合国标吗
+    expect: 安全标准相关
+- name: scene_086_03
+  turns:
+  - question: 有3c认证吗
+    expect: 安全标准相关
+- name: scene_086_04
+  turns:
+  - question: 安全检测合格吗
+    expect: 安全标准相关
+- name: scene_086_05
+  turns:
+  - question: 符合什么标准
+    expect: 安全标准相关
+- name: scene_086_06
+  turns:
+  - question: 有安全证书吗
+    expect: 安全标准相关
+- name: scene_086_07
+  turns:
+  - question: 达到a类标准了吗
+    expect: 安全标准相关
+- name: scene_086_08
+  turns:
+  - question: 安全检测报告有吗
+    expect: 安全标准相关
+- name: scene_086_09
+  turns:
+  - question: 符合国家标准吗
+    expect: 安全标准相关
+
+# 商品正品验证
+- name: scene_087_01
+  turns:
+  - question: 是正品吗
+    expect: 商品正品验证
+- name: scene_087_02
+  turns:
+  - question: 是真的吗
+    expect: 商品正品验证
+- name: scene_087_03
+  turns:
+  - question: 不是假的吧
+    expect: 商品正品验证
+- name: scene_087_04
+  turns:
+  - question: 肯定是正品吗
+    expect: 商品正品验证
+- name: scene_087_05
+  turns:
+  - question: 有正品保障吗
+    expect: 商品正品验证
+- name: scene_087_06
+  turns:
+  - question: 怎么证明是正品
+    expect: 商品正品验证
+- name: scene_087_07
+  turns:
+  - question: 这个不会是假货吧
+    expect: 商品正品验证
+- name: scene_087_08
+  turns:
+  - question: 是原装正品吗
+    expect: 商品正品验证
+- name: scene_087_09
+  turns:
+  - question: 跟专柜一样吗
+    expect: 商品正品验证
+
+# 咨询新品/发售相关信息
+- name: scene_088_01
+  turns:
+  - question: 这个是新款吗
+    expect: 咨询新品/发售相关信息
+- name: scene_088_02
+  turns:
+  - question: 这是新品吗
+    expect: 咨询新品/发售相关信息
+- name: scene_088_03
+  turns:
+  - question: 是不是最近新出的
+    expect: 咨询新品/发售相关信息
+- name: scene_088_04
+  turns:
+  - question: 这是新款还是老款
+    expect: 咨询新品/发售相关信息
+- name: scene_088_05
+  turns:
+  - question: 什么时候发售
+    expect: 咨询新品/发售相关信息
+- name: scene_088_06
+  turns:
+  - question: 什么时候开卖
+    expect: 咨询新品/发售相关信息
+- name: scene_088_07
+  turns:
+  - question: 什么时候能买
+    expect: 咨询新品/发售相关信息
+- name: scene_088_08
+  turns:
+  - question: 这是刚上的吗
+    expect: 咨询新品/发售相关信息
+- name: scene_088_09
+  turns:
+  - question: 首发是什么时候
+    expect: 咨询新品/发售相关信息
+- name: scene_088_10
+  turns:
+  - question: 第一批货吗
+    expect: 咨询新品/发售相关信息
+
+# 活动与促销规则
+- name: scene_089_01
+  turns:
+  - question: 有什么活动
+    expect: 活动与促销规则
+- name: scene_089_02
+  turns:
+  - question: 怎么最划算
+    expect: 活动与促销规则
+- name: scene_089_03
+  turns:
+  - question: 有优惠活动吗
+    expect: 活动与促销规则
+- name: scene_089_04
+  turns:
+  - question: 能参加活动吗
+    expect: 活动与促销规则
+- name: scene_089_05
+  turns:
+  - question: 活动链接发我
+    expect: 活动与促销规则
+- name: scene_089_06
+  turns:
+  - question: 秒杀怎么参加
+    expect: 活动与促销规则
+- name: scene_089_07
+  turns:
+  - question: 有满减活动吗
+    expect: 活动与促销规则
+- name: scene_089_08
+  turns:
+  - question: 老客户有优惠吗
+    expect: 活动与促销规则
+- name: scene_089_09
+  turns:
+  - question: 焕新周活动是什么
+    expect: 活动与促销规则
+- name: scene_089_10
+  turns:
+  - question: 满赠联名礼包规则是什么
+    expect: 活动与促销规则
+- name: scene_089_11
+  turns:
+  - question: 有免单活动吗
+    expect: 活动与促销规则
+- name: scene_089_12
+  turns:
+  - question: 多次购买有优惠吗
+    expect: 活动与促销规则
+
+# 购物金相关
+- name: scene_090_01
+  turns:
+  - question: 什么是购物金
+    expect: 购物金相关
+- name: scene_090_02
+  turns:
+  - question: 购物金怎么用
+    expect: 购物金相关
+- name: scene_090_03
+  turns:
+  - question: 购物金怎么充值
+    expect: 购物金相关
+- name: scene_090_04
+  turns:
+  - question: 用购物金有积分吗
+    expect: 购物金相关
+- name: scene_090_05
+  turns:
+  - question: 购物金能提现吗
+    expect: 购物金相关
+- name: scene_090_06
+  turns:
+  - question: 购物金有效期多久
+    expect: 购物金相关
+- name: scene_090_07
+  turns:
+  - question: 购物金怎么抵扣
+    expect: 购物金相关
+- name: scene_090_08
+  turns:
+  - question: 有膨胀金吗
+    expect: 购物金相关
+
+# 购物券相关
+- name: scene_091_01
+  turns:
+  - question: 购物券在哪领
+    expect: 购物券相关
+- name: scene_091_02
+  turns:
+  - question: 购物券怎么用
+    expect: 购物券相关
+- name: scene_091_03
+  turns:
+  - question: 有购物券吗
+    expect: 购物券相关
+- name: scene_091_04
+  turns:
+  - question: 购物券怎么没看到
+    expect: 购物券相关
+- name: scene_091_05
+  turns:
+  - question: 购物券过期了怎么办
+    expect: 购物券相关
+- name: scene_091_06
+  turns:
+  - question: 购物券能叠加吗
+    expect: 购物券相关
+- name: scene_091_07
+  turns:
+  - question: 购物券怎么用不了
+    expect: 购物券相关
+- name: scene_091_08
+  turns:
+  - question: 退款购物券返吗
+    expect: 购物券相关
+
+# 优惠券相关
+- name: scene_092_01
+  turns:
+  - question: 有优惠券吗
+    expect: 优惠券相关
+- name: scene_092_02
+  turns:
+  - question: 优惠券在哪
+    expect: 优惠券相关
+- name: scene_092_03
+  turns:
+  - question: 优惠券怎么领
+    expect: 优惠券相关
+- name: scene_092_04
+  turns:
+  - question: 能发张券吗
+    expect: 优惠券相关
+- name: scene_092_05
+  turns:
+  - question: 满减券有吗
+    expect: 优惠券相关
+- name: scene_092_06
+  turns:
+  - question: 优惠券怎么用
+    expect: 优惠券相关
+- name: scene_092_07
+  turns:
+  - question: 有券吗
+    expect: 优惠券相关
+- name: scene_092_08
+  turns:
+  - question: 怎么领券
+    expect: 优惠券相关
+- name: scene_092_09
+  turns:
+  - question: 券在什么地方
+    expect: 优惠券相关
+- name: scene_092_10
+  turns:
+  - question: 能用券吗
+    expect: 优惠券相关
+- name: scene_092_11
+  turns:
+  - question: 返券活动有吗
+    expect: 优惠券相关
+
+# 红包相关
+- name: scene_093_01
+  turns:
+  - question: 有红包吗
+    expect: 红包相关
+- name: scene_093_02
+  turns:
+  - question: 红包怎么用
+    expect: 红包相关
+- name: scene_093_03
+  turns:
+  - question: 红包在哪领
+    expect: 红包相关
+- name: scene_093_04
+  turns:
+  - question: 返红包是真的吗
+    expect: 红包相关
+- name: scene_093_05
+  turns:
+  - question: 红包怎么没到账
+    expect: 红包相关
+- name: scene_093_06
+  turns:
+  - question: 红包能用吗
+    expect: 红包相关
+- name: scene_093_07
+  turns:
+  - question: 红包能叠加吗
+    expect: 红包相关
+- name: scene_093_08
+  turns:
+  - question: 退款成功后红包会退回吗
+    expect: 红包相关
+
+# 直播专属规则
+- name: scene_094_01
+  turns:
+  - question: 直播间什么价
+    expect: 直播专属规则
+- name: scene_094_02
+  turns:
+  - question: 直播有优惠吗
+    expect: 直播专属规则
+- name: scene_094_03
+  turns:
+  - question: 直播间福利
+    expect: 直播专属规则
+- name: scene_094_04
+  turns:
+  - question: 主播价多少
+    expect: 直播专属规则
+- name: scene_094_05
+  turns:
+  - question: 直播有抽奖吗
+    expect: 直播专属规则
+- name: scene_094_06
+  turns:
+  - question: 直播间券怎么领
+    expect: 直播专属规则
+- name: scene_094_07
+  turns:
+  - question: 看直播有优惠吗
+    expect: 直播专属规则
+- name: scene_094_08
+  turns:
+  - question: 直播专享价
+    expect: 直播专属规则
+- name: scene_094_09
+  turns:
+  - question: 直播间互动有奖吗
+    expect: 直播专属规则
+
+# 会员权益说明
+- name: scene_095_01
+  turns:
+  - question: 会员有什么好处
+    expect: 会员权益说明
+- name: scene_095_02
+  turns:
+  - question: 怎么开通会员
+    expect: 会员权益说明
+- name: scene_095_03
+  turns:
+  - question: 会员要钱吗
+    expect: 会员权益说明
+- name: scene_095_04
+  turns:
+  - question: 是会员吗
+    expect: 会员权益说明
+- name: scene_095_05
+  turns:
+  - question: 会员能打折吗
+    expect: 会员权益说明
+- name: scene_095_06
+  turns:
+  - question: VIP有什么特权
+    expect: 会员权益说明
+- name: scene_095_07
+  turns:
+  - question: 入会礼是什么
+    expect: 会员权益说明
+
+# 预售尾款支付流程
+- name: scene_096_01
+  turns:
+  - question: 尾款什么时候付
+    expect: 预售尾款支付流程
+- name: scene_096_02
+  turns:
+  - question: 忘记付尾款了
+    expect: 预售尾款支付流程
+- name: scene_096_03
+  turns:
+  - question: 尾款在哪付
+    expect: 预售尾款支付流程
+- name: scene_096_04
+  turns:
+  - question: 付尾款有提醒吗
+    expect: 预售尾款支付流程
+- name: scene_096_05
+  turns:
+  - question: 尾款付不了怎么办
+    expect: 预售尾款支付流程
+- name: scene_096_06
+  turns:
+  - question: 定金尾款怎么算
+    expect: 预售尾款支付流程
+- name: scene_096_07
+  turns:
+  - question: 尾款时间到了吗
+    expect: 预售尾款支付流程
+- name: scene_096_08
+  turns:
+  - question: 能提前付尾款吗
+    expect: 预售尾款支付流程
+
+# 免息规则说明
+- name: scene_097_01
+  turns:
+  - question: 这个免息吗
+    expect: 免息规则说明
+- name: scene_097_02
+  turns:
+  - question: 几期免息
+    expect: 免息规则说明
+- name: scene_097_03
+  turns:
+  - question: 有免息活动吗
+    expect: 免息规则说明
+- name: scene_097_04
+  turns:
+  - question: 手续费多少
+    expect: 免息规则说明
+- name: scene_097_05
+  turns:
+  - question: 怎么免息分期
+    expect: 免息规则说明
+- name: scene_097_06
+  turns:
+  - question: 能分期吗
+    expect: 免息规则说明
+- name: scene_097_07
+  turns:
+  - question: 免息是真的吗
+    expect: 免息规则说明
+- name: scene_097_08
+  turns:
+  - question: 分期要利息吗
+    expect: 免息规则说明
+- name: scene_097_09
+  turns:
+  - question: 几期手续费免
+    expect: 免息规则说明
+- name: scene_097_10
+  turns:
+  - question: 支持信用卡分期吗
+    expect: 免息规则说明
+
+# 补贴相关政策
+- name: scene_098_01
+  turns:
+  - question: 有补贴吗
+    expect: 补贴相关政策
+- name: scene_098_02
+  turns:
+  - question: 国家补贴多少
+    expect: 补贴相关政策
+- name: scene_098_03
+  turns:
+  - question: 补贴怎么领
+    expect: 补贴相关政策
+- name: scene_098_04
+  turns:
+  - question: 店铺有补贴吗
+    expect: 补贴相关政策
+- name: scene_098_05
+  turns:
+  - question: 补贴政策是什么
+    expect: 补贴相关政策
+- name: scene_098_06
+  turns:
+  - question: 谁能享受补贴
+    expect: 补贴相关政策
+- name: scene_098_07
+  turns:
+  - question: 补贴什么时候发
+    expect: 补贴相关政策
+- name: scene_098_08
+  turns:
+  - question: 补贴到账了吗
+    expect: 补贴相关政策
+- name: scene_098_09
+  turns:
+  - question: 怎么申请补贴
+    expect: 补贴相关政策
+
+# 试用装规则说明
+- name: scene_099_01
+  turns:
+  - question: 有小样吗
+    expect: 试用装规则说明
+- name: scene_099_02
+  turns:
+  - question: 有试用装吗
+    expect: 试用装规则说明
+- name: scene_099_03
+  turns:
+  - question: 送试用装吗
+    expect: 试用装规则说明
+- name: scene_099_04
+  turns:
+  - question: 试用装怎么领
+    expect: 试用装规则说明
+- name: scene_099_05
+  turns:
+  - question: 试用装免费吗
+    expect: 试用装规则说明
+- name: scene_099_06
+  turns:
+  - question: 有样品吗
+    expect: 试用装规则说明
+- name: scene_099_07
+  turns:
+  - question: 试用装多少钱
+    expect: 试用装规则说明
+- name: scene_099_08
+  turns:
+  - question: 试用装链接在哪
+    expect: 试用装规则说明
+- name: scene_099_09
+  turns:
+  - question: 拍下送小样吗
+    expect: 试用装规则说明
+
+# 积分相关问题
+- name: scene_100_01
+  turns:
+  - question: 积分能抵扣吗
+    expect: 积分相关问题
+- name: scene_100_02
+  turns:
+  - question: 有多少积分
+    expect: 积分相关问题
+- name: scene_100_03
+  turns:
+  - question: 积分怎么查
+    expect: 积分相关问题
+- name: scene_100_04
+  turns:
+  - question: 积分能换什么
+    expect: 积分相关问题
+- name: scene_100_05
+  turns:
+  - question: 怎么获得积分
+    expect: 积分相关问题
+- name: scene_100_06
+  turns:
+  - question: 积分有效期多久
+    expect: 积分相关问题
+- name: scene_100_07
+  turns:
+  - question: 消费有积分吗
+    expect: 积分相关问题
+- name: scene_100_08
+  turns:
+  - question: 积分能提现吗
+    expect: 积分相关问题
+- name: scene_100_09
+  turns:
+  - question: 怎么用积分
+    expect: 积分相关问题
+
+# 充值兑换问题
+- name: scene_101_01
+  turns:
+  - question: 兑换码在哪
+    expect: 充值兑换问题
+- name: scene_101_02
+  turns:
+  - question: 怎么兑换
+    expect: 充值兑换问题
+- name: scene_101_03
+  turns:
+  - question: 兑换码怎么用
+    expect: 充值兑换问题
+- name: scene_101_04
+  turns:
+  - question: 充值码在哪
+    expect: 充值兑换问题
+- name: scene_101_05
+  turns:
+  - question: 兑换码有效吗
+    expect: 充值兑换问题
+- name: scene_101_06
+  turns:
+  - question: 兑换码激活
+    expect: 充值兑换问题
+- name: scene_101_07
+  turns:
+  - question: 怎么使用兑换码
+    expect: 充值兑换问题
+
+# 运费与包邮政策
+- name: scene_102_01
+  turns:
+  - question: 包邮吗
+    expect: 运费与包邮政策
+- name: scene_102_02
+  turns:
+  - question: 运费多少钱
+    expect: 运费与包邮政策
+- name: scene_102_03
+  turns:
+  - question: 满多少包邮
+    expect: 运费与包邮政策
+- name: scene_102_04
+  turns:
+  - question: 运费怎么算
+    expect: 运费与包邮政策
+- name: scene_102_05
+  turns:
+  - question: 运费能退吗
+    expect: 运费与包邮政策
+- name: scene_102_06
+  turns:
+  - question: 偏远地区运费
+    expect: 运费与包邮政策
+- name: scene_102_07
+  turns:
+  - question: 加急运费多少
+    expect: 运费与包邮政策
+- name: scene_102_08
+  turns:
+  - question: 不包邮地区
+    expect: 运费与包邮政策
+- name: scene_102_09
+  turns:
+  - question: 发顺丰加钱吗
+    expect: 运费与包邮政策
+
+# 快递物流服务
+- name: scene_103_01
+  turns:
+  - question: 发什么快递
+    expect: 快递物流服务
+- name: scene_103_02
+  turns:
+  - question: 能发顺丰吗
+    expect: 快递物流服务
+- name: scene_103_03
+  turns:
+  - question: 能改快递吗
+    expect: 快递物流服务
+- name: scene_103_04
+  turns:
+  - question: 快递电话多少
+    expect: 快递物流服务
+- name: scene_103_05
+  turns:
+  - question: 能指定快递吗
+    expect: 快递物流服务
+- name: scene_103_06
+  turns:
+  - question: 支持什么快递
+    expect: 快递物流服务
+- name: scene_103_07
+  turns:
+  - question: 快递能到吗
+    expect: 快递物流服务
+
+# 异常快递解决方法
+- name: scene_104_01
+  turns:
+  - question: 物流不更新
+    expect: 异常快递解决方法
+- name: scene_104_02
+  turns:
+  - question: 快递丢了
+    expect: 异常快递解决方法
+- name: scene_104_03
+  turns:
+  - question: 一直没物流
+    expect: 异常快递解决方法
+- name: scene_104_04
+  turns:
+  - question: 发错地方了
+    expect: 异常快递解决方法
+- name: scene_104_05
+  turns:
+  - question: 包裹异常
+    expect: 异常快递解决方法
+- name: scene_104_06
+  turns:
+  - question: 物流停滞
+    expect: 异常快递解决方法
+- name: scene_104_07
+  turns:
+  - question: 物流卡住了
+    expect: 异常快递解决方法
+- name: scene_104_08
+  turns:
+  - question: 快递异常怎么处理
+    expect: 异常快递解决方法
+- name: scene_104_09
+  turns:
+  - question: 一直停在一个地方
+    expect: 异常快递解决方法
+- name: scene_104_10
+  turns:
+  - question: 包裹派送异常
+    expect: 异常快递解决方法
+- name: scene_104_11
+  turns:
+  - question: 显示异常签收怎么办
+    expect: 异常快递解决方法
+- name: express_001_01
+  turns:
+  - question: 这快递好几天了还没到
+    expect: 异常快递解决方法
+- name: express_001_02
+  turns:
+  - question: 快递怎么这么慢
+    expect: 异常快递解决方法
+- name: express_001_03
+  turns:
+  - question: 物流怎么这么久
+    expect: 异常快递解决方法
+- name: express_001_04
+  turns:
+  - question: 寄了这么久还没到
+    expect: 异常快递解决方法
+- name: express_001_05
+  turns:
+  - question: 怎么这么多天还在路上
+    expect: 异常快递解决方法
+- name: express_001_06
+  turns:
+  - question: 这个快递怎么还没动静
+    expect: 异常快递解决方法
+- name: express_001_07
+  turns:
+  - question: 物流卡了两天一直没更新
+    expect: 异常快递解决方法
+- name: express_001_08
+  turns:
+  - question: 我的快递是不是异常了，怎么一直不到
+    expect: 异常快递解决方法
+- name: express_001_09
+  turns:
+  - question: 都过了预计时间了怎么还没送到
+    expect: 异常快递解决方法
+- name: express_001_10
+  turns:
+  - question: 物流信息停在那里不动了怎么办
+    expect: 异常快递解决方法
+- name: express_001_11
+  turns:
+  - question: 快递半天不派送是怎么回事
+    expect: 异常快递解决方法
+
+# 发货形式与特殊要求
+- name: scene_105_01
+  turns:
+  - question: 能分两个地址发吗
+    expect: 发货形式与特殊要求
+- name: scene_105_02
+  turns:
+  - question: 发两个地方
+    expect: 发货形式与特殊要求
+- name: scene_105_03
+  turns:
+  - question: 发货前检查
+    expect: 发货形式与特殊要求
+- name: scene_105_04
+  turns:
+  - question: 能合并发货吗
+    expect: 发货形式与特殊要求
+- name: scene_105_05
+  turns:
+  - question: 一起发可以吗
+    expect: 发货形式与特殊要求
+
+# 咨询发货时间
+- name: scene_106_01
+  turns:
+  - question: 什么时候发货
+    expect: 咨询发货时间
+- name: scene_106_02
+  turns:
+  - question: 今天能发吗
+    expect: 咨询发货时间
+- name: scene_106_03
+  turns:
+  - question: 大概什么时候发
+    expect: 咨询发货时间
+- name: scene_106_04
+  turns:
+  - question: 下单多久发货
+    expect: 咨询发货时间
+- name: scene_106_05
+  turns:
+  - question: 多久安排发出
+    expect: 咨询发货时间
+
+# 空包/少件补发政策
+- name: scene_107_01
+  turns:
+  - question: 收到空包裹
+    expect: 空包/少件补发政策
+- name: scene_107_02
+  turns:
+  - question: 少发了
+    expect: 空包/少件补发政策
+- name: scene_107_03
+  turns:
+  - question: 发错货了
+    expect: 空包/少件补发政策
+- name: scene_107_04
+  turns:
+  - question: 数量不对
+    expect: 空包/少件补发政策
+- name: scene_107_05
+  turns:
+  - question: 怎么补发
+    expect: 空包/少件补发政策
+- name: scene_107_06
+  turns:
+  - question: 缺货补发
+    expect: 空包/少件补发政策
+- name: scene_107_07
+  turns:
+  - question: 重新发货
+    expect: 空包/少件补发政策
+- name: scene_107_08
+  turns:
+  - question: 补发快递单
+    expect: 空包/少件补发政策
+- name: scene_107_09
+  turns:
+  - question: 虚假发货
+    expect: 空包/少件补发政策
+- name: scene_107_10
+  turns:
+  - question: 漏发了给我补发一下
+    expect: 空包/少件补发政策
+- name: scene_107_11
+  turns:
+  - question: 少了一件麻烦补发
+    expect: 空包/少件补发政策
+- name: scene_107_12
+  turns:
+  - question: 这个发错了重新补发
+    expect: 空包/少件补发政策
+- name: scene_107_13
+  turns:
+  - question: 补发什么时候安排
+    expect: 空包/少件补发政策
+
+# 派送/收货/送货问题
+- name: scene_108_01
+  turns:
+  - question: 能送货上门吗
+    expect: 派送/收货/送货问题
+- name: scene_108_02
+  turns:
+  - question: 能放驿站吗
+    expect: 派送/收货/送货问题
+- name: scene_108_03
+  turns:
+  - question: 取件码是多少
+    expect: 派送/收货/送货问题
+- name: scene_108_04
+  turns:
+  - question: 能送上楼吗
+    expect: 派送/收货/送货问题
+- name: scene_108_05
+  turns:
+  - question: 放哪自取
+    expect: 派送/收货/送货问题
+- name: scene_108_06
+  turns:
+  - question: 快递派送时间
+    expect: 派送/收货/送货问题
+- name: scene_108_07
+  turns:
+  - question: 能放到菜鸟驿站吗
+    expect: 派送/收货/送货问题
+- name: scene_108_08
+  turns:
+  - question: 能放快递柜吗
+    expect: 派送/收货/送货问题
+
+# 物流进度查询
+- name: scene_109_01
+  turns:
+  - question: 快递单号多少
+    expect: 物流进度查询
+- name: scene_109_02
+  turns:
+  - question: 物流查不到
+    expect: 物流进度查询
+- name: scene_109_03
+  turns:
+  - question: 物流到哪了
+    expect: 物流进度查询
+- name: scene_109_04
+  turns:
+  - question: 发给我单号
+    expect: 物流进度查询
+- name: scene_109_05
+  turns:
+  - question: 快递进度
+    expect: 物流进度查询
+- name: scene_109_06
+  turns:
+  - question: 查物流
+    expect: 物流进度查询
+- name: scene_109_07
+  turns:
+  - question: 发货了吗
+    expect: 物流进度查询
+
+# 退货宝服务
+- name: scene_110_01
+  turns:
+  - question: 有退货宝吗
+    expect: 退货宝服务
+- name: scene_110_02
+  turns:
+  - question: 退货宝怎么用
+    expect: 退货宝服务
+- name: scene_110_03
+  turns:
+  - question: 能用退货宝吗
+    expect: 退货宝服务
+- name: scene_110_04
+  turns:
+  - question: 退货宝在哪
+    expect: 退货宝服务
+- name: scene_110_05
+  turns:
+  - question: 支持退货宝吗
+    expect: 退货宝服务
+- name: scene_110_06
+  turns:
+  - question: 退货宝服务
+    expect: 退货宝服务
+- name: scene_110_07
+  turns:
+  - question: 退货宝入口
+    expect: 退货宝服务
+- name: scene_110_08
+  turns:
+  - question: 怎么开通退货宝
+    expect: 退货宝服务
+
+# 索要联系方式
+- name: scene_111_01
+  turns:
+  - question: 电话多少
+    expect: 索要联系方式
+- name: scene_111_02
+  turns:
+  - question: 能电话吗
+    expect: 索要联系方式
+- name: scene_111_03
+  turns:
+  - question: 给个号码
+    expect: 索要联系方式
+- name: scene_111_04
+  turns:
+  - question: 有联系方式吗
+    expect: 索要联系方式
+- name: scene_111_05
+  turns:
+  - question: 电话联系
+    expect: 索要联系方式
+- name: scene_111_06
+  turns:
+  - question: 怎么联系你们
+    expect: 索要联系方式
+- name: scene_111_07
+  turns:
+  - question: 手机号多少
+    expect: 索要联系方式
+- name: scene_111_08
+  turns:
+  - question: 给个电话
+    expect: 索要联系方式
+
+# 好评相关
+- name: scene_112_01
+  turns:
+  - question: 返现吗
+    expect: 好评相关
+- name: scene_112_02
+  turns:
+  - question: 好评有礼吗
+    expect: 好评相关
+- name: scene_112_03
+  turns:
+  - question: 晒图有奖吗
+    expect: 好评相关
+- name: scene_112_04
+  turns:
+  - question: 给个好评
+    expect: 好评相关
+- name: scene_112_05
+  turns:
+  - question: 已好评
+    expect: 好评相关
+- name: scene_112_06
+  turns:
+  - question: 五星返现
+    expect: 好评相关
+- name: scene_112_07
+  turns:
+  - question: 评价有礼
+    expect: 好评相关
+- name: scene_112_08
+  turns:
+  - question: 好评返现活动
+    expect: 好评相关
+- name: scene_112_09
+  turns:
+  - question: 发图有奖吗
+    expect: 好评相关
+
+# 合作推广咨询
+- name: scene_113_01
+  turns:
+  - question: 能合作吗
+    expect: 合作推广咨询
+- name: scene_113_02
+  turns:
+  - question: 有推广吗
+    expect: 合作推广咨询
+- name: scene_113_03
+  turns:
+  - question: 能带货吗
+    expect: 合作推广咨询
+- name: scene_113_04
+  turns:
+  - question: 代运营合作
+    expect: 合作推广咨询
+- name: scene_113_05
+  turns:
+  - question: 淘客合作
+    expect: 合作推广咨询
+- name: scene_113_06
+  turns:
+  - question: 商务合作
+    expect: 合作推广咨询
+- name: scene_113_07
+  turns:
+  - question: 一起合作
+    expect: 合作推广咨询
+- name: scene_113_08
+  turns:
+  - question: 有业务合作吗
+    expect: 合作推广咨询
+
+# 质疑好评真实性
+- name: scene_114_01
+  turns:
+  - question: 好评刷的吧
+    expect: 质疑好评真实性
+- name: scene_114_02
+  turns:
+  - question: 评价是假的吧
+    expect: 质疑好评真实性
+- name: scene_114_03
+  turns:
+  - question: 刷单的吧
+    expect: 质疑好评真实性
+- name: scene_114_04
+  turns:
+  - question: 好评真实吗
+    expect: 质疑好评真实性
+- name: scene_114_05
+  turns:
+  - question: 评价可信吗
+    expect: 质疑好评真实性
+- name: scene_114_06
+  turns:
+  - question: 这么多好评假的吧
+    expect: 质疑好评真实性
+- name: scene_114_07
+  turns:
+  - question: 刷出来的好评
+    expect: 质疑好评真实性
+- name: scene_114_08
+  turns:
+  - question: 虚假评价
+    expect: 质疑好评真实性
+
+# 已收到货物
+- name: scene_115_01
+  turns:
+  - question: 收到了
+    expect: 已收到货物
+- name: scene_115_02
+  turns:
+  - question: 货收到了
+    expect: 已收到货物
+- name: scene_115_03
+  turns:
+  - question: 东西到了
+    expect: 已收到货物
+- name: scene_115_04
+  turns:
+  - question: 收到了商品
+    expect: 已收到货物
+- name: scene_115_05
+  turns:
+  - question: 确认收到
+    expect: 已收到货物
+- name: scene_115_06
+  turns:
+  - question: 货已经拿到
+    expect: 已收到货物
+
+# 收到纯数字信息
+- name: scene_116_01
+  turns:
+  - question: '123456'
+    expect: 收到纯数字信息
+- name: scene_116_02
+  turns:
+  - question: '8888'
+    expect: 收到纯数字信息
+- name: scene_116_03
+  turns:
+  - question: '10086'
+    expect: 收到纯数字信息
+- name: scene_116_04
+  turns:
+  - question: 验证码
+    expect: 收到纯数字信息
+- name: scene_116_05
+  turns:
+  - question: 数字
+    expect: 收到纯数字信息
+
+# 提供地址信息
+- name: scene_117_01
+  turns:
+  - question: 发个地址
+    expect: 提供地址信息
+- name: scene_117_02
+  turns:
+  - question: 公司地址在哪
+    expect: 提供地址信息
+- name: scene_117_03
+  turns:
+  - question: 退货地址是什么
+    expect: 提供地址信息
+- name: scene_117_04
+  turns:
+  - question: 退货仓库地址（用于退货）
+    expect: 提供地址信息
+- name: scene_117_05
+  turns:
+  - question: 门店地址在哪里
+    expect: 提供地址信息
+
+# 常见付款场景说明
+- name: scene_118_01
+  turns:
+  - question: 拍错了
+    expect: 常见付款场景说明
+- name: scene_118_02
+  turns:
+  - question: 买多了
+    expect: 常见付款场景说明
+- name: scene_118_03
+  turns:
+  - question: 怎么付款
+    expect: 常见付款场景说明
+- name: scene_118_04
+  turns:
+  - question: 能货到付款吗
+    expect: 常见付款场景说明
+- name: scene_118_05
+  turns:
+  - question: 付款失败了
+    expect: 常见付款场景说明
+- name: scene_118_06
+  turns:
+  - question: 付款了但显示交易关闭了
+    expect: 常见付款场景说明
+- name: scene_118_07
+  turns:
+  - question: 我重复付款了
+    expect: 常见付款场景说明
+- name: scene_118_08
+  turns:
+  - question: 能合并付款吗
+    expect: 常见付款场景说明
+- name: scene_118_09
+  turns:
+  - question: 能先用后付吗
+    expect: 常见付款场景说明
+
+# 表示换店购买或不想要
+- name: scene_119_01
+  turns:
+  - question: 不等了
+    expect: 表示换店购买或不想要
+- name: scene_119_02
+  turns:
+  - question: 去别家看看
+    expect: 表示换店购买或不想要
+- name: scene_119_03
+  turns:
+  - question: 不想要了
+    expect: 表示换店购买或不想要
+- name: scene_119_04
+  turns:
+  - question: 算了
+    expect: 表示换店购买或不想要
+- name: scene_119_05
+  turns:
+  - question: 换一家买
+    expect: 表示换店购买或不想要
+- name: scene_119_06
+  turns:
+  - question: 不买了
+    expect: 表示换店购买或不想要
+- name: scene_119_07
+  turns:
+  - question: 去其他店
+    expect: 表示换店购买或不想要
+- name: scene_119_08
+  turns:
+  - question: 再看看吧
+    expect: 表示换店购买或不想要
+
+# 支付方式说明
+- name: scene_120_01
+  turns:
+  - question: 能用微信支付吗
+    expect: 支付方式说明
+- name: scene_120_02
+  turns:
+  - question: 可以用支付宝支付吗
+    expect: 支付方式说明
+- name: scene_120_03
+  turns:
+  - question: 支持信用卡支付吗
+    expect: 支付方式说明
+- name: scene_120_04
+  turns:
+  - question: 可以用银行卡支付吗
+    expect: 支付方式说明
+
+# 下单条件与限制
+- name: scene_121_01
+  turns:
+  - question: 买不了
+    expect: 下单条件与限制
+- name: scene_121_02
+  turns:
+  - question: 为什么不能下单
+    expect: 下单条件与限制
+- name: scene_121_03
+  turns:
+  - question: 有限制吗
+    expect: 下单条件与限制
+- name: scene_121_04
+  turns:
+  - question: 能拍吗
+    expect: 下单条件与限制
+- name: scene_121_05
+  turns:
+  - question: 限购吗
+    expect: 下单条件与限制
+- name: scene_121_06
+  turns:
+  - question: 怎么买不了
+    expect: 下单条件与限制
+- name: scene_121_07
+  turns:
+  - question: 可以买吗
+    expect: 下单条件与限制
+- name: scene_121_08
+  turns:
+  - question: 能下单吗
+    expect: 下单条件与限制
+- name: scene_121_09
+  turns:
+  - question: 什么时候能买
+    expect: 下单条件与限制
+- name: scene_121_10
+  turns:
+  - question: 分开拍可以吗
+    expect: 下单条件与限制
+
+# 多购优惠与批发
+- name: scene_122_01
+  turns:
+  - question: 能批发吗
+    expect: 多购优惠与批发
+- name: scene_122_02
+  turns:
+  - question: 有批发价吗
+    expect: 多购优惠与批发
+- name: scene_122_03
+  turns:
+  - question: 多买能优惠吗
+    expect: 多购优惠与批发
+- name: scene_122_04
+  turns:
+  - question: 批发价多少
+    expect: 多购优惠与批发
+- name: scene_122_05
+  turns:
+  - question: 能团购吗
+    expect: 多购优惠与批发
+- name: scene_122_06
+  turns:
+  - question: 量大有优惠吗
+    expect: 多购优惠与批发
+- name: scene_122_07
+  turns:
+  - question: 买得多便宜吗
+    expect: 多购优惠与批发
+- name: scene_122_08
+  turns:
+  - question: 批发业务
+    expect: 多购优惠与批发
+- name: scene_122_09
+  turns:
+  - question: 大宗购买
+    expect: 多购优惠与批发
+- name: scene_122_10
+  turns:
+  - question: 批发多少钱
+    expect: 多购优惠与批发
+
+# 表示延迟下单
+- name: scene_123_01
+  turns:
+  - question: 明天再买
+    expect: 表示延迟下单
+- name: scene_123_02
+  turns:
+  - question: 等降价再买
+    expect: 表示延迟下单
+- name: scene_123_03
+  turns:
+  - question: 等活动再买
+    expect: 表示延迟下单
+- name: scene_123_04
+  turns:
+  - question: 考虑一下
+    expect: 表示延迟下单
+- name: scene_123_05
+  turns:
+  - question: 再看看
+    expect: 表示延迟下单
+- name: scene_123_06
+  turns:
+  - question: 等双十一
+    expect: 表示延迟下单
+- name: scene_123_07
+  turns:
+  - question: 以后再说
+    expect: 表示延迟下单
+- name: scene_123_08
+  turns:
+  - question: 晚点买
+    expect: 表示延迟下单
+- name: scene_123_09
+  turns:
+  - question: 不急买
+    expect: 表示延迟下单
+
+# 花呗支付与还款
+- name: scene_124_01
+  turns:
+  - question: 支持花呗吗
+    expect: 花呗支付与还款
+- name: scene_124_02
+  turns:
+  - question: 能用花呗分期吗
+    expect: 花呗支付与还款
+- name: scene_124_03
+  turns:
+  - question: 花呗手续费
+    expect: 花呗支付与还款
+- name: scene_124_04
+  turns:
+  - question: 花呗怎么还
+    expect: 花呗支付与还款
+- name: scene_124_05
+  turns:
+  - question: 分几期
+    expect: 花呗支付与还款
+- name: scene_124_06
+  turns:
+  - question: 花呗利息
+    expect: 花呗支付与还款
+- name: scene_124_07
+  turns:
+  - question: 能用花呗吗
+    expect: 花呗支付与还款
+- name: scene_124_08
+  turns:
+  - question: 花呗分期付款
+    expect: 花呗支付与还款
+- name: scene_124_09
+  turns:
+  - question: 不支持花呗
+    expect: 花呗支付与还款
+- name: scene_124_10
+  turns:
+  - question: 免息分期吗
+    expect: 花呗支付与还款
+
+# 购物车限制原因
+- name: scene_125_01
+  turns:
+  - question: 加不了购物车
+    expect: 购物车限制原因
+- name: scene_125_02
+  turns:
+  - question: 不能加购物车
+    expect: 购物车限制原因
+- name: scene_125_03
+  turns:
+  - question: 购物车加购失败
+    expect: 购物车限制原因
+- name: scene_125_04
+  turns:
+  - question: 没有购物车
+    expect: 购物车限制原因
+- name: scene_125_05
+  turns:
+  - question: 购物车在哪
+    expect: 购物车限制原因
+- name: scene_125_06
+  turns:
+  - question: 怎么加购物车
+    expect: 购物车限制原因
+- name: scene_125_07
+  turns:
+  - question: 购物车无法添加
+    expect: 购物车限制原因
+- name: scene_125_08
+  turns:
+  - question: 加购不了
+    expect: 购物车限制原因
+- name: scene_125_09
+  turns:
+  - question: 不能加入购物车
+    expect: 购物车限制原因
+
+# 商品下架原因
+- name: scene_126_01
+  turns:
+  - question: 下架了
+    expect: 商品下架原因
+- name: scene_126_02
+  turns:
+  - question: 怎么下架了
+    expect: 商品下架原因
+- name: scene_126_03
+  turns:
+  - question: 为什么没货了
+    expect: 商品下架原因
+- name: scene_126_04
+  turns:
+  - question: 什么时候上架
+    expect: 商品下架原因
+- name: scene_126_05
+  turns:
+  - question: 买不到了
+    expect: 商品下架原因
+- name: scene_126_06
+  turns:
+  - question: 商品没了
+    expect: 商品下架原因
+- name: scene_126_07
+  turns:
+  - question: 找不到商品
+    expect: 商品下架原因
+
+# 订单加单与合并
+- name: scene_127_01
+  turns:
+  - question: 能加单吗
+    expect: 订单加单与合并
+- name: scene_127_02
+  turns:
+  - question: 能再拍一个吗
+    expect: 订单加单与合并
+- name: scene_127_03
+  turns:
+  - question: 想多买一个
+    expect: 订单加单与合并
+- name: scene_127_04
+  turns:
+  - question: 追加商品
+    expect: 订单加单与合并
+- name: scene_127_05
+  turns:
+  - question: 补拍一个
+    expect: 订单加单与合并
+- name: scene_127_06
+  turns:
+  - question: 订单能加货吗
+    expect: 订单加单与合并
+- name: scene_127_07
+  turns:
+  - question: 再加一件
+    expect: 订单加单与合并
+- name: scene_127_08
+  turns:
+  - question: 能改单吗
+    expect: 订单加单与合并
+- name: scene_127_09
+  turns:
+  - question: 合并订单
+    expect: 订单加单与合并
+
+# 储存方式
+- name: scene_storage_method_01
+  turns:
+  - question: 这个要怎么保存
+    expect: 储存方式
+- name: scene_storage_method_02
+  turns:
+  - question: 需要冷藏吗
+    expect: 储存方式
+- name: scene_storage_method_03
+  turns:
+  - question: 要放冰箱吗
+    expect: 储存方式
+- name: scene_storage_method_04
+  turns:
+  - question: 常温保存可以吗
+    expect: 储存方式
+- name: scene_storage_method_05
+  turns:
+  - question: 开封后怎么保存
+    expect: 储存方式
+- name: scene_storage_method_06
+  turns:
+  - question: 要直立放吗
+    expect: 储存方式
+- name: scene_storage_method_07
+  turns:
+  - question: 要避光吗
+    expect: 储存方式
+- name: scene_storage_method_08
+  turns:
+  - question: 放在阴凉处就行吗
+    expect: 储存方式
+- name: scene_storage_method_09
+  turns:
+  - question: 需要密封保存吗
+    expect: 储存方式
+- name: scene_storage_method_10
+  turns:
+  - question: 要放干燥处吗
+    expect: 储存方式
+- name: scene_storage_method_11
+  turns:
+  - question: 能放浴室吗
+    expect: 储存方式
+- name: scene_storage_method_12
+  turns:
+  - question: 要冷冻吗
+    expect: 储存方式
+- name: scene_storage_method_13
+  turns:
+  - question: 这个产品平时怎么存放啊
+    expect: 储存方式
+- name: scene_storage_method_14
+  turns:
+  - question: 这个需要放在冰箱里面吗
+    expect: 储存方式
+- name: scene_storage_method_15
+  turns:
+  - question: 不冷藏的话会不会坏掉
+    expect: 储存方式
+- name: scene_storage_method_16
+  turns:
+  - question: 这个常温放着可以吗
+    expect: 储存方式
+- name: scene_storage_method_17
+  turns:
+  - question: 开封以后要怎么保存比较好
+    expect: 储存方式
+- name: scene_storage_method_18
+  turns:
+  - question: 这个要放在阴凉干燥的地方吗
+    expect: 储存方式
+- name: scene_storage_method_19
+  turns:
+  - question: 需要避开太阳直晒吗
+    expect: 储存方式
+- name: scene_storage_method_20
+  turns:
+  - question: 这个可以放在浴室里吗
+    expect: 储存方式
+- name: scene_storage_method_21
+  turns:
+  - question: 用完之后要不要密封起来
+    expect: 储存方式
+- name: scene_storage_method_22
+  turns:
+  - question: 这个要不要放冷冻层保存
+    expect: 储存方式
+- name: scene_storage_method_23
+  turns:
+  - question: 夏天温度高会不会影响保存
+    expect: 储存方式
+- name: scene_storage_method_24
+  turns:
+  - question: 这个放在室内就行还是要特别注意保存条件
+    expect: 储存方式
+- name: scene_storage_method_25
+  turns:
+  - question: 开盖之后能不能直接放着不管
+    expect: 储存方式
+- name: scene_storage_method_26
+  turns:
+  - question: 这个保存的时候需要竖着放吗
+    expect: 储存方式
+
+empty_scenes:
+  - 申请补寄卡片
+  - 申请修改地址卡片
+  - 申请发票卡片
+  - 物流投诉卡片
+  - 申请退货退款卡片
+  - 物流异常卡片
+  - 平台介入卡片
+  - 买家发送其他链接
+  - 买家发送商品链接
+  - 买家发送订单
+  - 买家发送图片
+  - 买家发送视频
+  - 买家发送文件
+  - 买家发送或索要微信
+  - 买家发送手机号
+
+meta:
+  total_scene_groups: 128
+  runnable_cases: 936
+  empty_scene_count: 15
+  split_out_files:
+  - chat_test_clothing_industry.yaml
+  - chat_test_beauty_industry.yaml

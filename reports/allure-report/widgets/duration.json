@@ -1,0 +1,11 @@
+[ {
+  "uid" : "c5b7396115ff7861",
+  "name" : "test_chat_and_quality_flow[scene_two_turn_mixed_assert]",
+  "time" : {
+    "start" : 1774596046132,
+    "stop" : 1774596085047,
+    "duration" : 38915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

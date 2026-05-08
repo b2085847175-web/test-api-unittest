@@ -1,0 +1,1337 @@
+target_env: "prod"
+
+cases:
+# 分类：商品咨询（手机行业包）
+
+# ============================================
+# 场景：商品型号
+# ============================================
+- name: phone_scene_001_01
+  turns:
+  - question: 这是什么型号
+    expect: 商品型号
+- name: phone_scene_001_02
+  turns:
+  - question: 这个型号是啥
+    expect: 商品型号
+- name: phone_scene_001_03
+  turns:
+  - question: 具体型号发我看下
+    expect: 商品型号
+- name: phone_scene_001_04
+  turns:
+  - question: 这是哪个系列
+    expect: 商品型号
+- name: phone_scene_001_05
+  turns:
+  - question: 这款是什么机型
+    expect: 商品型号
+
+# ============================================
+# 场景：版本/渠道
+# ============================================
+- name: phone_scene_002_01
+  turns:
+  - question: 这是国行吗
+    expect: 版本/渠道
+- name: phone_scene_002_02
+  turns:
+  - question: 是港版吗
+    expect: 版本/渠道
+- name: phone_scene_002_03
+  turns:
+  - question: 这是美版吗
+    expect: 版本/渠道
+- name: phone_scene_002_04
+  turns:
+  - question: 公开版吗
+    expect: 版本/渠道
+- name: phone_scene_002_05
+  turns:
+  - question: 这是合约机吗
+    expect: 版本/渠道
+
+# ============================================
+# 场景：有锁/卡贴机
+# ============================================
+- name: phone_scene_003_01
+  turns:
+  - question: 需要卡贴吗
+    expect: 有锁/卡贴机
+- name: phone_scene_003_02
+  turns:
+  - question: 这是卡贴机吗
+    expect: 有锁/卡贴机
+- name: phone_scene_003_03
+  turns:
+  - question: 美版有锁吗
+    expect: 有锁/卡贴机
+- name: phone_scene_003_04
+  turns:
+  - question: 不用卡贴能用吗
+    expect: 有锁/卡贴机
+- name: phone_scene_003_05
+  turns:
+  - question: 特价机是不是卡贴机
+    expect: 有锁/卡贴机
+
+# ============================================
+# 场景：全新未激活
+# ============================================
+- name: phone_scene_004_01
+  turns:
+  - question: 是全新机吗
+    expect: 全新未激活
+- name: phone_scene_004_02
+  turns:
+  - question: 未激活的吗
+    expect: 全新未激活
+- name: phone_scene_004_03
+  turns:
+  - question: 包装拆过没有
+    expect: 全新未激活
+- name: phone_scene_004_04
+  turns:
+  - question: 不是翻新机吧
+    expect: 全新未激活
+- name: phone_scene_004_05
+  turns:
+  - question: 是不是二手机
+    expect: 全新未激活
+
+# ============================================
+# 场景：官换机/组装机
+# ============================================
+- name: phone_scene_005_01
+  turns:
+  - question: 这是官换机吗
+    expect: 官换机/组装机
+- name: phone_scene_005_02
+  turns:
+  - question: 是不是官翻机
+    expect: 官换机/组装机
+- name: phone_scene_005_03
+  turns:
+  - question: 不是组装机吧
+    expect: 官换机/组装机
+- name: phone_scene_005_04
+  turns:
+  - question: 这台是不是维修过
+    expect: 官换机/组装机
+- name: phone_scene_005_05
+  turns:
+  - question: 这是资源机吗
+    expect: 官换机/组装机
+
+# ============================================
+# 场景：裸机及配套
+# ============================================
+- name: phone_scene_006_01
+  turns:
+  - question: 是裸机吗
+    expect: 裸机及配套
+- name: phone_scene_006_02
+  turns:
+  - question: 裸机是什么意思
+    expect: 裸机及配套
+- name: phone_scene_006_03
+  turns:
+  - question: 只有手机本体吗
+    expect: 裸机及配套
+- name: phone_scene_006_04
+  turns:
+  - question: 盒子里有充电器吗
+    expect: 裸机及配套
+- name: phone_scene_006_05
+  turns:
+  - question: 包装内含什么
+    expect: 裸机及配套
+
+# ============================================
+# 场景：屏幕参数
+# ============================================
+- name: phone_scene_007_01
+  turns:
+  - question: 屏幕分辨率多少
+    expect: 屏幕参数
+- name: phone_scene_007_02
+  turns:
+  - question: 刷新率是多少
+    expect: 屏幕参数
+- name: phone_scene_007_03
+  turns:
+  - question: 支持高刷吗
+    expect: 屏幕参数
+- name: phone_scene_007_04
+  turns:
+  - question: 屏幕色域多少
+    expect: 屏幕参数
+- name: phone_scene_007_05
+  turns:
+  - question: 亮度多少尼特
+    expect: 屏幕参数
+- name: phone_scene_007_06
+  turns:
+  - question: 屏幕比例是多少
+    expect: 屏幕参数
+- name: phone_scene_007_07
+  turns:
+  - question: 是2.5K屏吗
+    expect: 屏幕参数
+
+# ============================================
+# 场景：屏幕贴膜
+# ============================================
+- name: phone_scene_008_01
+  turns:
+  - question: 出厂贴膜了吗
+    expect: 屏幕贴膜
+- name: phone_scene_008_02
+  turns:
+  - question: 买回来还要贴膜吗
+    expect: 屏幕贴膜
+- name: phone_scene_008_03
+  turns:
+  - question: 可以帮我贴膜吗
+    expect: 屏幕贴膜
+- name: phone_scene_008_04
+  turns:
+  - question: 屏幕上是不是自带膜
+    expect: 屏幕贴膜
+- name: phone_scene_008_05
+  turns:
+  - question: 背面有膜吗
+    expect: 屏幕贴膜
+
+# ============================================
+# 场景：处理器性能
+# ============================================
+- name: phone_scene_009_01
+  turns:
+  - question: 处理器是什么
+    expect: 处理器性能
+- name: phone_scene_009_02
+  turns:
+  - question: 芯片是骁龙几
+    expect: 处理器性能
+- name: phone_scene_009_03
+  turns:
+  - question: 运行速度怎么样
+    expect: 处理器性能
+- name: phone_scene_009_04
+  turns:
+  - question: 会不会卡顿
+    expect: 处理器性能
+- name: phone_scene_009_05
+  turns:
+  - question: 用的什么处理器
+    expect: 处理器性能
+- name: phone_scene_009_06
+  turns:
+  - question: 处理器是i5还是i7
+    expect: 处理器性能
+- name: phone_scene_009_07
+  turns:
+  - question: 安兔兔跑分多少
+    expect: 处理器性能
+- name: phone_scene_009_08
+  turns:
+  - question: 日常使用流畅吗
+    expect: 处理器性能
+- name: phone_scene_009_09
+  turns:
+  - question: 多任务会不会卡
+    expect: 处理器性能
+- name: phone_scene_009_10
+  turns:
+  - question: CPU是几代
+    expect: 处理器性能
+- name: phone_scene_009_11
+  turns:
+  - question: 几核几线程
+    expect: 处理器性能
+- name: phone_scene_009_12
+  turns:
+  - question: CPU频率多少
+    expect: 处理器性能
+
+# ============================================
+# 场景：游戏性能
+# ============================================
+- name: phone_scene_010_01
+  turns:
+  - question: 玩王者卡不卡
+    expect: 游戏性能
+- name: phone_scene_010_02
+  turns:
+  - question: 能玩吃鸡吗
+    expect: 游戏性能
+- name: phone_scene_010_03
+  turns:
+  - question: 游戏能开多少帧
+    expect: 游戏性能
+- name: phone_scene_010_04
+  turns:
+  - question: 适合打游戏吗
+    expect: 游戏性能
+- name: phone_scene_010_05
+  turns:
+  - question: 玩原神怎么样
+    expect: 游戏性能
+- name: phone_scene_010_06
+  turns:
+  - question: 大型游戏带得动吗
+    expect: 游戏性能
+- name: phone_scene_010_07
+  turns:
+  - question: 吃鸡能开什么画质
+    expect: 游戏性能
+
+# ============================================
+# 场景：运行内存/存储容量
+# ============================================
+- name: phone_scene_011_01
+  turns:
+  - question: 运行内存多大
+    expect: 运行内存/存储容量
+- name: phone_scene_011_02
+  turns:
+  - question: 这个是几加几
+    expect: 运行内存/存储容量
+- name: phone_scene_011_03
+  turns:
+  - question: 有256G的吗
+    expect: 运行内存/存储容量
+- name: phone_scene_011_04
+  turns:
+  - question: 机身内存多少
+    expect: 运行内存/存储容量
+- name: phone_scene_011_05
+  turns:
+  - question: 8+256是什么意思
+    expect: 运行内存/存储容量
+
+# ============================================
+# 场景：内存卡扩展
+# ============================================
+- name: phone_scene_012_01
+  turns:
+  - question: 能插内存卡吗
+    expect: 内存卡扩展
+- name: phone_scene_012_02
+  turns:
+  - question: 支持扩展存储吗
+    expect: 内存卡扩展
+- name: phone_scene_012_03
+  turns:
+  - question: 可以放SD卡吗
+    expect: 内存卡扩展
+- name: phone_scene_012_04
+  turns:
+  - question: 双卡还能加内存卡吗
+    expect: 内存卡扩展
+- name: phone_scene_012_05
+  turns:
+  - question: 内存卡装在哪里
+    expect: 内存卡扩展
+
+# ============================================
+# 场景：网络制式/运营商
+# ============================================
+- name: phone_scene_013_01
+  turns:
+  - question: 支持5G吗
+    expect: 网络制式/运营商
+- name: phone_scene_013_02
+  turns:
+  - question: 是全网通吗
+    expect: 网络制式/运营商
+- name: phone_scene_013_03
+  turns:
+  - question: 电信卡能用吗
+    expect: 网络制式/运营商
+- name: phone_scene_013_04
+  turns:
+  - question: 移动联通都支持吗
+    expect: 网络制式/运营商
+- name: phone_scene_013_05
+  turns:
+  - question: 4G卡能用吗
+    expect: 网络制式/运营商
+
+# ============================================
+# 场景：双卡双待/卡槽
+# ============================================
+- name: phone_scene_014_01
+  turns:
+  - question: 支持双卡双待吗
+    expect: 双卡双待/卡槽
+- name: phone_scene_014_02
+  turns:
+  - question: 是单卡还是双卡
+    expect: 双卡双待/卡槽
+- name: phone_scene_014_03
+  turns:
+  - question: 可以插两张卡吗
+    expect: 双卡双待/卡槽
+- name: phone_scene_014_04
+  turns:
+  - question: 卡槽在哪里
+    expect: 双卡双待/卡槽
+- name: phone_scene_014_05
+  turns:
+  - question: 双卡是双通吗
+    expect: 双卡双待/卡槽
+
+# ============================================
+# 场景：SIM卡类型
+# ============================================
+- name: phone_scene_015_01
+  turns:
+  - question: 普通卡能用吗
+    expect: SIM卡类型
+- name: phone_scene_015_02
+  turns:
+  - question: 要剪卡吗
+    expect: SIM卡类型
+- name: phone_scene_015_03
+  turns:
+  - question: 是大卡还是小卡
+    expect: SIM卡类型
+- name: phone_scene_015_04
+  turns:
+  - question: nano卡能插吗
+    expect: SIM卡类型
+
+# ============================================
+# 场景：是否需要更换手机卡
+# ============================================
+- name: phone_scene_016_01
+  turns:
+  - question: 5G手机要换卡吗
+    expect: 是否需要更换手机卡
+- name: phone_scene_016_02
+  turns:
+  - question: 我的4G卡能用吗
+    expect: 是否需要更换手机卡
+- name: phone_scene_016_03
+  turns:
+  - question: 不用换5G卡吧
+    expect: 是否需要更换手机卡
+- name: phone_scene_016_04
+  turns:
+  - question: 要换5G套餐吗
+    expect: 是否需要更换手机卡
+- name: phone_scene_016_05
+  turns:
+  - question: 原来的手机卡可以直接用吗
+    expect: 是否需要更换手机卡
+
+# ============================================
+# 场景：网络/WiFi/蓝牙
+# ============================================
+- name: phone_scene_017_01
+  turns:
+  - question: 支持蓝牙吗
+    expect: 网络/WiFi/蓝牙
+- name: phone_scene_017_02
+  turns:
+  - question: 可以连接wifi吗
+    expect: 网络/WiFi/蓝牙
+- name: phone_scene_017_03
+  turns:
+  - question: 支持双频wifi吗
+    expect: 网络/WiFi/蓝牙
+- name: phone_scene_017_04
+  turns:
+  - question: 能连热点吗
+    expect: 网络/WiFi/蓝牙
+- name: phone_scene_017_05
+  turns:
+  - question: 蓝牙版本是多少
+    expect: 网络/WiFi/蓝牙
+- name: phone_scene_017_06
+  turns:
+  - question: 无线网络稳定吗
+    expect: 网络/WiFi/蓝牙
+- name: phone_scene_017_07
+  turns:
+  - question: 可以插网卡吗
+    expect: 网络/WiFi/蓝牙
+
+# ============================================
+# 场景：电池健康/损耗
+# ============================================
+- name: phone_scene_018_01
+  turns:
+  - question: 电池健康是多少
+    expect: 电池健康/损耗
+- name: phone_scene_018_02
+  turns:
+  - question: 电池效率还有多少
+    expect: 电池健康/损耗
+- name: phone_scene_018_03
+  turns:
+  - question: 电池损耗大不大
+    expect: 电池健康/损耗
+
+# ============================================
+# 场景：接口类型
+# ============================================
+- name: phone_scene_019_01
+  turns:
+  - question: 是什么充电接口
+    expect: 接口类型
+- name: phone_scene_019_02
+  turns:
+  - question: 充电口在哪里
+    expect: 接口类型
+- name: phone_scene_019_03
+  turns:
+  - question: 这款用什么数据线
+    expect: 接口类型
+- name: phone_scene_019_04
+  turns:
+  - question: 电脑是type-c充电吗
+    expect: 接口类型
+- name: phone_scene_019_05
+  turns:
+  - question: 电源接口是圆口吗
+    expect: 接口类型
+- name: phone_scene_019_06
+  turns:
+  - question: 有HDMI接口吗
+    expect: 接口类型
+- name: phone_scene_019_07
+  turns:
+  - question: 有几个USB口
+    expect: 接口类型
+- name: phone_scene_019_08
+  turns:
+  - question: 支持雷电接口吗
+    expect: 接口类型
+- name: phone_scene_019_09
+  turns:
+  - question: 有网线接口吗
+    expect: 接口类型
+- name: phone_scene_019_10
+  turns:
+  - question: Type-C能传视频吗
+    expect: 接口类型
+- name: phone_scene_019_11
+  turns:
+  - question: 有耳机孔吗
+    expect: 接口类型
+
+# ============================================
+# 场景：无线充电/反向充电
+# ============================================
+- name: phone_scene_020_01
+  turns:
+  - question: 能无线充电吗
+    expect: 无线充电/反向充电
+- name: phone_scene_020_02
+  turns:
+  - question: 支持反向充电吗
+    expect: 无线充电/反向充电
+- name: phone_scene_020_03
+  turns:
+  - question: 可以给耳机反向充吗
+    expect: 无线充电/反向充电
+- name: phone_scene_020_04
+  turns:
+  - question: 支持磁吸充电吗
+    expect: 无线充电/反向充电
+- name: phone_scene_020_05
+  turns:
+  - question: 不支持无线充吗
+    expect: 无线充电/反向充电
+
+# ============================================
+# 场景：发热散热
+# ============================================
+- name: phone_scene_021_01
+  turns:
+  - question: 用久了会发烫吗
+    expect: 发热散热
+- name: phone_scene_021_02
+  turns:
+  - question: 打游戏发热严重吗
+    expect: 发热散热
+- name: phone_scene_021_03
+  turns:
+  - question: 充电会不会烫手
+    expect: 发热散热
+- name: phone_scene_021_04
+  turns:
+  - question: 散热怎么样
+    expect: 发热散热
+- name: phone_scene_021_05
+  turns:
+  - question: 有液冷散热吗
+    expect: 发热散热
+- name: phone_scene_021_06
+  turns:
+  - question: 有几个风扇
+    expect: 发热散热
+- name: phone_scene_021_07
+  turns:
+  - question: 是风冷还是水冷
+    expect: 发热散热
+- name: phone_scene_021_08
+  turns:
+  - question: 满载温度高吗
+    expect: 发热散热
+
+# ============================================
+# 场景：摄像头参数
+# ============================================
+- name: phone_scene_022_01
+  turns:
+  - question: 前置多少像素
+    expect: 摄像头参数
+- name: phone_scene_022_02
+  turns:
+  - question: 后置几个摄像头
+    expect: 摄像头参数
+- name: phone_scene_022_03
+  turns:
+  - question: 主摄是索尼的吗
+    expect: 摄像头参数
+- name: phone_scene_022_04
+  turns:
+  - question: 摄像头配置怎么样
+    expect: 摄像头参数
+- name: phone_scene_022_05
+  turns:
+  - question: 拍照清楚吗
+    expect: 摄像头参数
+- name: phone_scene_022_06
+  turns:
+  - question: 有没有摄像头
+    expect: 摄像头参数
+- name: phone_scene_022_07
+  turns:
+  - question: 是三摄还是双摄
+    expect: 摄像头参数
+- name: phone_scene_022_08
+  turns:
+  - question: 主摄型号是什么
+    expect: 摄像头参数
+
+# ============================================
+# 场景：变焦/防抖
+# ============================================
+- name: phone_scene_023_01
+  turns:
+  - question: 支持光学防抖吗
+    expect: 变焦/防抖
+- name: phone_scene_023_02
+  turns:
+  - question: 录像防抖吗
+    expect: 变焦/防抖
+- name: phone_scene_023_03
+  turns:
+  - question: 能放大多少倍
+    expect: 变焦/防抖
+- name: phone_scene_023_04
+  turns:
+  - question: 几倍变焦
+    expect: 变焦/防抖
+- name: phone_scene_023_05
+  turns:
+  - question: 拍视频会不会抖
+    expect: 变焦/防抖
+
+# ============================================
+# 场景：拍照美颜/视频通话
+# ============================================
+- name: phone_scene_024_01
+  turns:
+  - question: 原相机带美颜吗
+    expect: 拍照美颜/视频通话
+- name: phone_scene_024_02
+  turns:
+  - question: 微信视频能美颜吗
+    expect: 拍照美颜/视频通话
+- name: phone_scene_024_03
+  turns:
+  - question: 自拍好看吗
+    expect: 拍照美颜/视频通话
+- name: phone_scene_024_04
+  turns:
+  - question: 拍照效果怎么样
+    expect: 拍照美颜/视频通话
+- name: phone_scene_024_05
+  turns:
+  - question: 视频通话清楚吗
+    expect: 拍照美颜/视频通话
+- name: phone_scene_024_06
+  turns:
+  - question: 拍人像好看吗
+    expect: 拍照美颜/视频通话
+
+# ============================================
+# 场景：操作系统/系统版本
+# ============================================
+- name: phone_scene_025_01
+  turns:
+  - question: 是什么系统
+    expect: 操作系统/系统版本
+- name: phone_scene_025_02
+  turns:
+  - question: 安卓还是苹果系统
+    expect: 操作系统/系统版本
+- name: phone_scene_025_03
+  turns:
+  - question: 系统版本是多少
+    expect: 操作系统/系统版本
+- name: phone_scene_025_04
+  turns:
+  - question: 支持鸿蒙吗
+    expect: 操作系统/系统版本
+- name: phone_scene_025_05
+  turns:
+  - question: 出厂系统是什么
+    expect: 操作系统/系统版本
+- name: phone_scene_025_06
+  turns:
+  - question: 是win11系统吗
+    expect: 操作系统/系统版本
+- name: phone_scene_025_07
+  turns:
+  - question: 可以选win10吗
+    expect: 操作系统/系统版本
+- name: phone_scene_025_08
+  turns:
+  - question: 是mac系统吗
+    expect: 操作系统/系统版本
+- name: phone_scene_025_09
+  turns:
+  - question: 预装系统吗
+    expect: 操作系统/系统版本
+
+# ============================================
+# 场景：系统更新/root刷机
+# ============================================
+- name: phone_scene_026_01
+  turns:
+  - question: 系统可以升级吗
+    expect: 系统更新/root刷机
+- name: phone_scene_026_02
+  turns:
+  - question: 能刷机吗
+    expect: 系统更新/root刷机
+- name: phone_scene_026_03
+  turns:
+  - question: 支持root吗
+    expect: 系统更新/root刷机
+- name: phone_scene_026_04
+  turns:
+  - question: 可以降级系统吗
+    expect: 系统更新/root刷机
+- name: phone_scene_026_05
+  turns:
+  - question: 有没有root权限
+    expect: 系统更新/root刷机
+
+# ============================================
+# 场景：应用分身/分屏/录屏
+# ============================================
+- name: phone_scene_027_01
+  turns:
+  - question: 支持微信分身吗
+    expect: 应用分身/分屏/录屏
+- name: phone_scene_027_02
+  turns:
+  - question: 可以应用双开吗
+    expect: 应用分身/分屏/录屏
+- name: phone_scene_027_03
+  turns:
+  - question: 能分屏吗
+    expect: 应用分身/分屏/录屏
+- name: phone_scene_027_04
+  turns:
+  - question: 有录屏功能吗
+    expect: 应用分身/分屏/录屏
+- name: phone_scene_027_05
+  turns:
+  - question: 支持录屏吗
+    expect: 应用分身/分屏/录屏
+
+# ============================================
+# 场景：解锁识别方式
+# ============================================
+- name: phone_scene_028_01
+  turns:
+  - question: 支持指纹解锁吗
+    expect: 解锁识别方式
+- name: phone_scene_028_02
+  turns:
+  - question: 有人脸识别吗
+    expect: 解锁识别方式
+- name: phone_scene_028_03
+  turns:
+  - question: 指纹在屏幕上吗
+    expect: 解锁识别方式
+- name: phone_scene_028_04
+  turns:
+  - question: 能面部解锁吗
+    expect: 解锁识别方式
+
+# ============================================
+# 场景：NFC/红外/定位/OTG
+# ============================================
+- name: phone_scene_029_01
+  turns:
+  - question: 支持NFC吗
+    expect: NFC/红外/定位/OTG
+- name: phone_scene_029_02
+  turns:
+  - question: 能刷公交卡吗
+    expect: NFC/红外/定位/OTG
+- name: phone_scene_029_03
+  turns:
+  - question: 有红外遥控吗
+    expect: NFC/红外/定位/OTG
+- name: phone_scene_029_04
+  turns:
+  - question: 支持GPS定位吗
+    expect: NFC/红外/定位/OTG
+- name: phone_scene_029_05
+  turns:
+  - question: 有OTG功能吗
+    expect: NFC/红外/定位/OTG
+
+# ============================================
+# 场景：扬声器/麦克风
+# ============================================
+- name: phone_scene_030_01
+  turns:
+  - question: 是双扬声器吗
+    expect: 扬声器/麦克风
+- name: phone_scene_030_02
+  turns:
+  - question: 外放声音大吗
+    expect: 扬声器/麦克风
+- name: phone_scene_030_03
+  turns:
+  - question: 有几个扬声器
+    expect: 扬声器/麦克风
+- name: phone_scene_030_04
+  turns:
+  - question: 内置麦克风吗
+    expect: 扬声器/麦克风
+- name: phone_scene_030_05
+  turns:
+  - question: 麦克风在哪个位置
+    expect: 扬声器/麦克风
+- name: phone_scene_030_06
+  turns:
+  - question: 支持降噪麦克风吗
+    expect: 扬声器/麦克风
+
+# ============================================
+# 场景：激活/序列号查询
+# ============================================
+- name: phone_scene_031_01
+  turns:
+  - question: 怎么查激活时间
+    expect: 激活/序列号查询
+- name: phone_scene_031_02
+  turns:
+  - question: 序列号在哪里看
+    expect: 激活/序列号查询
+- name: phone_scene_031_03
+  turns:
+  - question: IMEI能查吗
+    expect: 激活/序列号查询
+- name: phone_scene_031_04
+  turns:
+  - question: GSX激活日期能查吗
+    expect: 激活/序列号查询
+- name: phone_scene_031_05
+  turns:
+  - question: 激活状态怎么查
+    expect: 激活/序列号查询
+
+# ============================================
+# 场景：碎屏险/碎屏保
+# ============================================
+- name: phone_scene_032_01
+  turns:
+  - question: 有碎屏险吗
+    expect: 碎屏险/碎屏保
+- name: phone_scene_032_02
+  turns:
+  - question: 能买碎屏保吗
+    expect: 碎屏险/碎屏保
+- name: phone_scene_032_03
+  turns:
+  - question: 碎屏保多少钱
+    expect: 碎屏险/碎屏保
+- name: phone_scene_032_04
+  turns:
+  - question: 送不送碎屏险
+    expect: 碎屏险/碎屏保
+- name: phone_scene_032_05
+  turns:
+  - question: 碎屏险怎么购买
+    expect: 碎屏险/碎屏保
+
+# ============================================
+# 场景：以旧换新/旧机回收
+# ============================================
+- name: phone_scene_033_01
+  turns:
+  - question: 支持以旧换新吗
+    expect: 以旧换新/旧机回收
+- name: phone_scene_033_02
+  turns:
+  - question: 旧手机能回收吗
+    expect: 以旧换新/旧机回收
+- name: phone_scene_033_03
+  turns:
+  - question: 以旧换新怎么算
+    expect: 以旧换新/旧机回收
+- name: phone_scene_033_04
+  turns:
+  - question: 旧机能抵多少钱
+    expect: 以旧换新/旧机回收
+- name: phone_scene_033_05
+  turns:
+  - question: 回收流程是什么
+    expect: 以旧换新/旧机回收
+
+# ============================================
+# 场景：是否便携
+# ============================================
+- name: phone_scene_034_01
+  turns:
+  - question: 手机放口袋方便吗
+    expect: 是否便携
+- name: phone_scene_034_02
+  turns:
+  - question: 单手拿方便吗
+    expect: 是否便携
+- name: phone_scene_034_03
+  turns:
+  - question: 方便随身带吗
+    expect: 是否便携
+- name: phone_scene_034_04
+  turns:
+  - question: 出门携带方便吗
+    expect: 是否便携
+- name: phone_scene_034_05
+  turns:
+  - question: 手小拿着方便吗
+    expect: 是否便携
+
+# ============================================
+# 场景：适用年龄
+# ============================================
+- name: phone_scene_035_01
+  turns:
+  - question: 老人机适合吗
+    expect: 适用年龄
+- name: phone_scene_035_02
+  turns:
+  - question: 小朋友能用吗
+    expect: 适用年龄
+- name: phone_scene_035_03
+  turns:
+  - question: 老人用会不会复杂
+    expect: 适用年龄
+- name: phone_scene_035_04
+  turns:
+  - question: 学生用这款手机够吗
+    expect: 适用年龄
+- name: phone_scene_035_05
+  turns:
+  - question: 小孩能用这款吗
+    expect: 适用年龄
+
+# ============================================
+# 场景：适用性别
+# 本次未提供新增问法示例，未生成断言 case。
+# ============================================
+
+# ============================================
+# 场景：色差
+# ============================================
+- name: phone_scene_037_01
+  turns:
+  - question: 实物偏色吗
+    expect: 色差
+- name: phone_scene_037_02
+  turns:
+  - question: 颜色和图片一致吗
+    expect: 色差
+- name: phone_scene_037_03
+  turns:
+  - question: 真机颜色准吗
+    expect: 色差
+- name: phone_scene_037_04
+  turns:
+  - question: 手机颜色和详情图一样吗
+    expect: 色差
+- name: phone_scene_037_05
+  turns:
+  - question: 白色实机会偏黄吗
+    expect: 色差
+- name: phone_scene_037_06
+  turns:
+  - question: 黑色实物偏灰吗
+    expect: 色差
+- name: phone_scene_037_07
+  turns:
+  - question: 真机颜色会不会不一样
+    expect: 色差
+- name: phone_scene_037_08
+  turns:
+  - question: 图片和实机有色差吗
+    expect: 色差
+
+# ============================================
+# 场景：商品尺寸
+# ============================================
+- name: phone_scene_038_01
+  turns:
+  - question: 手机长宽高是多少
+    expect: 商品尺寸
+- name: phone_scene_038_02
+  turns:
+  - question: 屏幕几寸
+    expect: 商品尺寸
+- name: phone_scene_038_03
+  turns:
+  - question: 手机尺寸多大
+    expect: 商品尺寸
+- name: phone_scene_038_04
+  turns:
+  - question: 机身厚度多少
+    expect: 商品尺寸
+- name: phone_scene_038_05
+  turns:
+  - question: 这款手机多大
+    expect: 商品尺寸
+- name: phone_scene_038_06
+  turns:
+  - question: 手机尺寸
+    expect: 商品尺寸
+- name: phone_scene_038_07
+  turns:
+  - question: 屏幕多大
+    expect: 商品尺寸
+- name: phone_scene_038_08
+  turns:
+  - question: 机身厚不厚
+    expect: 商品尺寸
+- name: phone_scene_038_09
+  turns:
+  - question: 长宽高参数
+    expect: 商品尺寸
+
+# ============================================
+# 场景：续航时长
+# ============================================
+- name: phone_scene_039_01
+  turns:
+  - question: 电量耐用吗
+    expect: 续航时长
+- name: phone_scene_039_02
+  turns:
+  - question: 一天一充够吗
+    expect: 续航时长
+- name: phone_scene_039_03
+  turns:
+  - question: 游戏能用多久
+    expect: 续航时长
+- name: phone_scene_039_04
+  turns:
+  - question: 待机多久
+    expect: 续航时长
+- name: phone_scene_039_05
+  turns:
+  - question: 耗电快吗
+    expect: 续航时长
+- name: phone_scene_039_06
+  turns:
+  - question: 掉电快吗
+    expect: 续航时长
+
+# ============================================
+# 场景：电池类型及容量
+# ============================================
+- name: phone_scene_040_01
+  turns:
+  - question: 5000毫安吗
+    expect: 电池类型及容量
+- name: phone_scene_040_02
+  turns:
+  - question: 电池容量多少mAh
+    expect: 电池类型及容量
+- name: phone_scene_040_03
+  turns:
+  - question: 什么电池类型
+    expect: 电池类型及容量
+- name: phone_scene_040_04
+  turns:
+  - question: 锂电池吗
+    expect: 电池类型及容量
+
+# ============================================
+# 场景：充电时长
+# ============================================
+- name: phone_scene_041_01
+  turns:
+  - question: 多久满电
+    expect: 充电时长
+- name: phone_scene_041_02
+  turns:
+  - question: 充电要几个小时
+    expect: 充电时长
+- name: phone_scene_041_03
+  turns:
+  - question: 充满大概要多久
+    expect: 充电时长
+
+# ============================================
+# 场景：商品功率
+# ============================================
+- name: phone_scene_042_01
+  turns:
+  - question: 支持多少W快充
+    expect: 商品功率
+- name: phone_scene_042_02
+  turns:
+  - question: 充电功率是多少
+    expect: 商品功率
+- name: phone_scene_042_03
+  turns:
+  - question: 用多少瓦充电器
+    expect: 商品功率
+- name: phone_scene_042_04
+  turns:
+  - question: 是67w快充吗
+    expect: 商品功率
+- name: phone_scene_042_05
+  turns:
+  - question: 120w快充吗
+    expect: 商品功率
+- name: phone_scene_042_06
+  turns:
+  - question: 多少瓦充电
+    expect: 商品功率
+- name: phone_scene_042_07
+  turns:
+  - question: 快充多少W
+    expect: 商品功率
+- name: phone_scene_042_08
+  turns:
+  - question: 充电头要多大功率
+    expect: 商品功率
+
+# ============================================
+# 场景：是否有辐射
+# ============================================
+- name: phone_scene_043_01
+  turns:
+  - question: 电磁辐射大吗
+    expect: 是否有辐射
+- name: phone_scene_043_02
+  turns:
+  - question: 手机辐射大不大
+    expect: 是否有辐射
+
+# ============================================
+# 场景：商品材质
+# ============================================
+- name: phone_scene_044_01
+  turns:
+  - question: 手机后盖是什么材质
+    expect: 商品材质
+- name: phone_scene_044_02
+  turns:
+  - question: 边框是金属的吗
+    expect: 商品材质
+- name: phone_scene_044_03
+  turns:
+  - question: 素皮后盖吗
+    expect: 商品材质
+- name: phone_scene_044_04
+  turns:
+  - question: 铝合金边框吗
+    expect: 商品材质
+- name: phone_scene_044_05
+  turns:
+  - question: 塑料中框吗
+    expect: 商品材质
+- name: phone_scene_044_06
+  turns:
+  - question: 是玻璃后盖吗
+    expect: 商品材质
+
+# ============================================
+# 场景：颜色信息
+# ============================================
+- name: phone_scene_045_01
+  turns:
+  - question: 这个手机是什么颜色
+    expect: 颜色信息
+- name: phone_scene_045_02
+  turns:
+  - question: 有什么配色
+    expect: 颜色信息
+- name: phone_scene_045_03
+  turns:
+  - question: 手机配色
+    expect: 颜色信息
+- name: phone_scene_045_04
+  turns:
+  - question: 有哪些颜色
+    expect: 颜色信息
+
+# ============================================
+# 场景：防护性能
+# ============================================
+- name: phone_scene_046_01
+  turns:
+  - question: 支持IP68吗
+    expect: 防护性能
+- name: phone_scene_046_02
+  turns:
+  - question: IP68防水吗
+    expect: 防护性能
+- name: phone_scene_046_03
+  turns:
+  - question: 防尘等级多少
+    expect: 防护性能
+
+# ============================================
+# 场景：容量/净含量/数量
+# ============================================
+- name: phone_scene_047_01
+  turns:
+  - question: 机身重量是多少
+    expect: 容量/净含量/数量
+- name: phone_scene_047_02
+  turns:
+  - question: 净重多少克
+    expect: 容量/净含量/数量
+- name: phone_scene_047_03
+  turns:
+  - question: 重量多少
+    expect: 容量/净含量/数量
+- name: phone_scene_047_04
+  turns:
+  - question: 机身净重
+    expect: 容量/净含量/数量
+- name: phone_scene_047_05
+  turns:
+  - question: 这款手机重不重
+    expect: 容量/净含量/数量
+
+# ============================================
+# 场景：商品对比与差异说明
+# ============================================
+- name: phone_scene_048_01
+  turns:
+  - question: pro和普通版差别
+    expect: 商品对比与差异说明
+- name: phone_scene_048_02
+  turns:
+  - question: 港版国行区别
+    expect: 商品对比与差异说明
+- name: phone_scene_048_03
+  turns:
+  - question: 公开版和合约版区别是什么
+    expect: 商品对比与差异说明
+
+# ============================================
+# 场景：商品正品验证
+# ============================================
+- name: phone_scene_049_01
+  turns:
+  - question: 原装正品吗
+    expect: 商品正品验证
+- name: phone_scene_049_02
+  turns:
+  - question: 官方正品吗
+    expect: 商品正品验证
+- name: phone_scene_049_03
+  turns:
+  - question: 防伪码在哪
+    expect: 商品正品验证
+
+# ============================================
+# 场景：使用说明
+# ============================================
+- name: phone_scene_050_01
+  turns:
+  - question: 怎么设置人脸识别
+    expect: 使用说明
+- name: phone_scene_050_02
+  turns:
+  - question: 怎么开应用分身
+    expect: 使用说明
+- name: phone_scene_050_03
+  turns:
+  - question: 怎么开启红外
+    expect: 使用说明
+- name: phone_scene_050_04
+  turns:
+  - question: 手机怎么激活
+    expect: 使用说明
+- name: phone_scene_050_05
+  turns:
+  - question: 怎么设置指纹
+    expect: 使用说明
+- name: phone_scene_050_06
+  turns:
+  - question: 怎么打开NFC
+    expect: 使用说明
+- name: phone_scene_050_07
+  turns:
+  - question: 怎么录屏
+    expect: 使用说明
+- name: phone_scene_050_08
+  turns:
+  - question: 怎么分屏
+    expect: 使用说明
+- name: phone_scene_050_09
+  turns:
+  - question: 怎么添加门禁卡
+    expect: 使用说明
+
+# ============================================
+# 场景：售后维修支持
+# ============================================
+- name: phone_scene_051_01
+  turns:
+  - question: 碎屏怎么修
+    expect: 售后维修支持
+- name: phone_scene_051_02
+  turns:
+  - question: 官方保修多久
+    expect: 售后维修支持
+- name: phone_scene_051_03
+  turns:
+  - question: 能寄修吗
+    expect: 售后维修支持
+- name: phone_scene_051_04
+  turns:
+  - question: 屏幕碎了怎么办
+    expect: 售后维修支持
+- name: phone_scene_051_05
+  turns:
+  - question: 手机坏了能修吗
+    expect: 售后维修支持
+- name: phone_scene_051_06
+  turns:
+  - question: 保修期多久
+    expect: 售后维修支持
+- name: phone_scene_051_07
+  turns:
+  - question: 可以全国联保吗
+    expect: 售后维修支持

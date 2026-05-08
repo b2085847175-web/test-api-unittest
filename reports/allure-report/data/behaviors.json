@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_chat_and_quality_flow[scene_two_turn_mixed_assert]",
+    "uid" : "c5b7396115ff7861",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1774596046132,
+      "stop" : 1774596085047,
+      "duration" : 38915
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'name': 'scene_two_turn_mixed_assert', 'shop_id': '585', 'turns': [{'question': '你好'}, {'question': '现在有什么活动和优惠吗？', 'expect': '活动与促销规则'}, {'question': '这个商品有运费险吗', 'expect': '运费险与退运费服务'}]}" ]
+  } ]
+}

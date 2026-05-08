@@ -1,0 +1,13 @@
+target_env: "dev"
+
+cases:
+  - name: "context_shampoo_ingredient_inquiry"
+    context_messages:
+      - role: "user"
+        content: "https://mobile.yangkeduo.com/goods.html?goods_id=932521733436&_oak_rcto=YWJbuEM5efBPyO4Yh0_81bqWUsBuDXLgFbv-xfH3XLFCjtiJ8JIbnyPCNfCAwfT6Heo&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAxNSwic2NlbmVfaWQiOjJ9&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+      - role: "assistant"
+        content: "亲亲"
+      - role: "assistant"
+        content: "这款洗发水用完头发就感觉柔顺亮泽啦，头皮也清爽不紧绷哦！连续用2到4周，能明显改善干枯毛躁和头皮敏感的问题，让头发达到水润蓬松、健康光泽的状态呢～"
+    turns:
+      - question: "实拍成分表有吗？"

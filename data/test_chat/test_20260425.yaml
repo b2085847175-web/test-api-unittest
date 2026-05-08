@@ -1,0 +1,19 @@
+target_env: "console"
+
+cases:
+  - name: "context_hair_growth_inquiry"
+    context_messages:
+      - role: "user"
+        content: "https://mobile.yangkeduo.com/goods.html?goods_id=926584356669&_oak_rcto=YWJcNPdQab56BvWE2czKFNJGNGGqb-Z19Yr-xfH3XLFCjj8WHm3c_oVCbYh-cdxbRgU&page_from=63&_oc_trace_mark=199&_oc_mkt_domain=197&_oc_refer_ad=1&_oc_mkt_tr_sc=ddvideo_search_goodslist&_oc_adinfo=eyJzY2VuZV9pZCI6Mn0%3D&_oc_mkt_tr_token=zacjtrar33wisvs4wg6gyi3kfvcnnuckyx33kn4hhdwbulnthiwhgzfd4qk5nevd25jshbaxdynqnjfwttgtwput5ldxl4bgpxtsgeq&_oak_actype=34&_oak_sub_actype=0"
+      - role: "assistant"
+        content: "亲亲，这款儒意防脱精华液效果很好的哈"
+      - role: "assistant"
+        content: "它是专门针对防脱、强根健发设计的，里面有姜提取物和侧柏叶提取物，能稳固发根、滋养毛囊呢！"
+      - role: "user"
+        content: "是不是能长头发"
+      - role: "assistant"
+        content: "亲亲，这款主要是防脱、强根健发和强韧防断发的哦，能帮助稳固发根、滋养毛囊，让头发更健康强韧呢"
+      - role: "user"
+        content: "能不能让头发越来越多"
+    turns:
+      - question: "能不能让头发越来越多"

@@ -1,0 +1,930 @@
+target_env: "prod"
+
+cases:
+# 分类：商品咨询（洗护行业包）
+
+# ============================================
+# 场景：适用物品/材质
+# 描述：买家咨询洗护剂适用于哪些物品、面料、材质或清洁对象，如衣物、床品、羽绒服、木地板、滚筒洗衣机等，不包含头皮、身体等人体部位。
+# ============================================
+- name: washcare_scene_001_01
+  turns:
+  - question: 这个可以直接喷床吗
+    expect: 适用物品/材质
+
+- name: washcare_scene_001_02
+  turns:
+  - question: 只能用于滚筒洗衣机吗
+    expect: 适用物品/材质
+
+- name: washcare_scene_001_03
+  turns:
+  - question: 羽绒服能用吗
+    expect: 适用物品/材质
+
+- name: washcare_scene_001_04
+  turns:
+  - question: 宝宝衣服可以洗吗
+    expect: 适用物品/材质
+
+- name: washcare_scene_001_05
+  turns:
+  - question: 木地板能喷吗
+    expect: 适用物品/材质
+
+- name: washcare_scene_001_06
+  turns:
+  - question: 内衣内裤能用吗
+    expect: 适用物品/材质
+
+# ============================================
+# 场景：是否容易出泡及出泡量
+# 描述：买家咨询洗护剂是否容易起泡、泡沫量大小、泡沫细腻程度。
+# ============================================
+- name: washcare_scene_002_01
+  turns:
+  - question: 容易起泡吗
+    expect: 是否容易出泡及出泡量
+
+- name: washcare_scene_002_02
+  turns:
+  - question: 泡沫多吗
+    expect: 是否容易出泡及出泡量
+
+- name: washcare_scene_002_03
+  turns:
+  - question: 泡沫细不细
+    expect: 是否容易出泡及出泡量
+
+- name: washcare_scene_002_04
+  turns:
+  - question: 一搓就有泡吗
+    expect: 是否容易出泡及出泡量
+
+- name: washcare_scene_002_05
+  turns:
+  - question: 泡泡会不会很多
+    expect: 是否容易出泡及出泡量
+
+# ============================================
+# 场景：PH值/酸碱度
+# 描述：买家咨询洗护剂的 PH 值、偏酸还是偏碱、是否为弱酸性等。
+# ============================================
+- name: washcare_scene_003_01
+  turns:
+  - question: pH值多少
+    expect: PH值/酸碱度
+
+- name: washcare_scene_003_02
+  turns:
+  - question: 是酸性还是碱性
+    expect: PH值/酸碱度
+
+- name: washcare_scene_003_03
+  turns:
+  - question: 弱酸性吗
+    expect: PH值/酸碱度
+
+- name: washcare_scene_003_04
+  turns:
+  - question: 酸碱度高吗
+    expect: PH值/酸碱度
+
+# ============================================
+# 场景：供电方式
+# 描述：买家咨询洗护工具是插电、充电、干电池、USB 供电还是其他供电方式。
+# ============================================
+- name: washcare_tool_scene_001_01
+  turns:
+  - question: 这是插电的还是充电的
+    expect: 供电方式
+
+- name: washcare_tool_scene_001_02
+  turns:
+  - question: 用干电池供电的吗
+    expect: 供电方式
+
+- name: washcare_tool_scene_001_03
+  turns:
+  - question: USB 供电吗
+    expect: 供电方式
+
+- name: washcare_tool_scene_001_04
+  turns:
+  - question: 是不是直插电源的
+    expect: 供电方式
+
+# ============================================
+# 场景：适配机型
+# 描述：买家咨询配件、刷头、刀头、替换头等是否适配某个型号或某类机器。
+# ============================================
+- name: washcare_tool_scene_002_01
+  turns:
+  - question: 适配哪种机型
+    expect: 适配机型
+
+- name: washcare_tool_scene_002_02
+  turns:
+  - question: 适合什么机型
+    expect: 适配机型
+
+- name: washcare_tool_scene_002_03
+  turns:
+  - question: 这个配件适配哪种型号
+    expect: 适配机型
+
+- name: washcare_tool_scene_002_04
+  turns:
+  - question: 这个刀头适合哪个型号
+    expect: 适配机型
+
+# ============================================
+# 场景：续航时长
+# 描述：买家咨询商品充满电后能用多久。
+# ============================================
+- name: washcare_tool_scene_003_01
+  turns:
+  - question: 充满电能用多久
+    expect: 续航时长
+
+- name: washcare_tool_scene_003_02
+  turns:
+  - question: 续航多久
+    expect: 续航时长
+
+- name: washcare_tool_scene_003_03
+  turns:
+  - question: 能连续用多长时间
+    expect: 续航时长
+
+- name: washcare_tool_scene_003_04
+  turns:
+  - question: 一次充电能撑多久
+    expect: 续航时长
+
+# ============================================
+# 场景：商品功率
+# 描述：买家咨询商品功率大小。
+# ============================================
+- name: washcare_tool_scene_004_01
+  turns:
+  - question: 功率多少瓦
+    expect: 商品功率
+
+- name: washcare_tool_scene_004_02
+  turns:
+  - question: 这款多少W
+    expect: 商品功率
+
+- name: washcare_tool_scene_004_03
+  turns:
+  - question: 功率大吗
+    expect: 商品功率
+
+
+
+# ============================================
+# 场景：电池类型及容量
+# 描述：买家咨询电池容量、类型、型号。
+# ============================================
+- name: washcare_tool_scene_005_01
+  turns:
+  - question: 这款电池容量多少
+    expect: 电池类型及容量
+
+- name: washcare_tool_scene_005_02
+  turns:
+  - question: 是多少毫安的
+    expect: 电池类型及容量
+
+- name: washcare_tool_scene_005_03
+  turns:
+  - question: 是锂电池吗
+    expect: 电池类型及容量
+
+- name: washcare_tool_scene_005_04
+  turns:
+  - question: 用几号电池
+    expect: 电池类型及容量
+
+- name: washcare_tool_scene_005_05
+  turns:
+  - question: 电池型号是什么
+    expect: 电池类型及容量
+
+# ============================================
+# 场景：噪音分贝
+# 描述：买家咨询使用时声音是否大、噪音多少。
+# ============================================
+- name: washcare_tool_scene_006_01
+  turns:
+  - question: 声音大吗
+    expect: 噪音分贝
+
+- name: washcare_tool_scene_006_02
+  turns:
+  - question: 噪音多少分贝
+    expect: 噪音分贝
+
+- name: washcare_tool_scene_006_03
+  turns:
+  - question: 会不会很吵
+    expect: 噪音分贝
+
+- name: washcare_tool_scene_006_04
+  turns:
+  - question: 晚上用会不会扰民
+    expect: 噪音分贝
+
+# ============================================
+# 场景：负离子/水离子
+# 描述：买家咨询是否有负离子、水离子等功能。
+# ============================================
+- name: washcare_tool_scene_007_01
+  turns:
+  - question: 有负离子吗
+    expect: 负离子/水离子
+
+- name: washcare_tool_scene_007_02
+  turns:
+  - question: 带水离子功能吗
+    expect: 负离子/水离子
+
+- name: washcare_tool_scene_007_03
+  turns:
+  - question: 负离子有用吗
+    expect: 负离子/水离子
+
+- name: washcare_tool_scene_007_04
+  turns:
+  - question: 是负离子款吗
+    expect: 负离子/水离子
+
+# ============================================
+# 场景：充电时长
+# 描述：买家咨询从没电到充满需要多久。
+# ============================================
+- name: washcare_tool_scene_008_01
+  turns:
+  - question: 充满电要多久
+    expect: 充电时长
+
+- name: washcare_tool_scene_008_02
+  turns:
+  - question: 充电时间多长
+    expect: 充电时长
+
+- name: washcare_tool_scene_008_03
+  turns:
+  - question: 多久能充满
+    expect: 充电时长
+
+- name: washcare_tool_scene_008_04
+  turns:
+  - question: 快充吗
+    expect: 充电时长
+
+# ============================================
+# 场景：商品尺寸
+# 描述：买家咨询商品长宽高、体积大小。
+# ============================================
+- name: washcare_tool_scene_009_01
+  turns:
+  - question: 尺寸多大
+    expect: 商品尺寸
+
+- name: washcare_tool_scene_009_02
+  turns:
+  - question: 机身多长
+    expect: 商品尺寸
+
+- name: washcare_tool_scene_009_03
+  turns:
+  - question: 多宽
+    expect: 商品尺寸
+
+- name: washcare_tool_scene_009_04
+  turns:
+  - question: 体积大不大
+    expect: 商品尺寸
+
+# ============================================
+# 场景：是否可干湿两用
+# 描述：买家咨询商品能否干用湿用两种方式都支持。
+# ============================================
+- name: washcare_tool_scene_010_01
+  turns:
+  - question: 可以干湿两用吗
+    expect: 是否可干湿两用
+
+- name: washcare_tool_scene_010_02
+  turns:
+  - question: 洗澡时能用吗
+    expect: 是否可干湿两用
+
+- name: washcare_tool_scene_010_03
+  turns:
+  - question: 湿手能用吗
+    expect: 是否可干湿两用
+
+- name: washcare_tool_scene_010_04
+  turns:
+  - question: 干用可以吗
+    expect: 是否可干湿两用
+
+# ============================================
+# 场景：是否有辐射
+# 描述：买家咨询商品是否有辐射、辐射是否大。
+# ============================================
+- name: washcare_tool_scene_011_01
+  turns:
+  - question: 有辐射吗
+    expect: 是否有辐射
+
+- name: washcare_tool_scene_011_02
+  turns:
+  - question: 辐射大不大
+    expect: 是否有辐射
+
+- name: washcare_tool_scene_011_03
+  turns:
+  - question: 会不会有电磁辐射
+    expect: 是否有辐射
+
+# ============================================
+# 场景：能效等级
+# 描述：买家咨询商品能效等级、耗电级别。
+# ============================================
+- name: washcare_tool_scene_012_01
+  turns:
+  - question: 能效等级是多少
+    expect: 能效等级
+
+- name: washcare_tool_scene_012_02
+  turns:
+  - question: 几级能效
+    expect: 能效等级
+
+- name: washcare_tool_scene_012_03
+  turns:
+  - question: 省电吗
+    expect: 能效等级
+
+- name: washcare_tool_scene_012_04
+  turns:
+  - question: 耗电等级是什么
+    expect: 能效等级
+
+- name: washcare_tool_scene_012_05
+  turns:
+  - question: 耗电高吗
+    expect: 能效等级
+
+# ============================================
+# 场景：适用年龄
+# ============================================
+- name: washcare_scene_013_01
+  turns:
+  - question: 小孩能用吗
+    expect: 适用年龄
+
+- name: washcare_scene_013_02
+  turns:
+  - question: 多大可以用
+    expect: 适用年龄
+
+- name: washcare_scene_013_03
+  turns:
+  - question: 老人可以用吗
+    expect: 适用年龄
+
+- name: washcare_tool_scene_013_01
+  turns:
+  - question: 小朋友可以用吗
+    expect: 适用年龄
+
+- name: washcare_tool_scene_013_02
+  turns:
+  - question: 多大年龄能用
+    expect: 适用年龄
+
+- name: washcare_tool_scene_013_03
+  turns:
+  - question: 老人适合用吗
+    expect: 适用年龄
+
+# ============================================
+# 场景：适用性别
+# ============================================
+- name: washcare_scene_014_01
+  turns:
+  - question: 男生能用吗
+    expect: 适用性别
+
+- name: washcare_scene_014_02
+  turns:
+  - question: 女生可以用吗
+    expect: 适用性别
+
+- name: washcare_scene_014_03
+  turns:
+  - question: 男女都能用吗
+    expect: 适用性别
+
+- name: washcare_tool_scene_014_01
+  turns:
+  - question: 男生可以用吗
+    expect: 适用性别
+
+- name: washcare_tool_scene_014_02
+  turns:
+  - question: 女生能用吗
+    expect: 适用性别
+
+- name: washcare_tool_scene_014_03
+  turns:
+  - question: 男女通用吗
+    expect: 适用性别
+
+# ============================================
+# 场景：储存方式
+# ============================================
+- name: washcare_scene_015_01
+  turns:
+  - question: 怎么储存
+    expect: 储存方式
+
+# ============================================
+# 场景：孕期/哺乳期适用
+# ============================================
+- name: washcare_scene_016_01
+  turns:
+  - question: 孕妇能用吗
+    expect: 孕期/哺乳期适用
+
+- name: washcare_scene_016_02
+  turns:
+  - question: 哺乳期能用吗
+    expect: 孕期/哺乳期适用
+
+- name: washcare_scene_016_03
+  turns:
+  - question: 备孕能用吗
+    expect: 孕期/哺乳期适用
+
+# ============================================
+# 场景：适用肤质
+# ============================================
+- name: washcare_scene_017_01
+  turns:
+  - question: 油皮能用吗
+    expect: 适用肤质
+
+- name: washcare_scene_017_02
+  turns:
+  - question: 干皮适合吗
+    expect: 适用肤质
+
+- name: washcare_scene_017_03
+  turns:
+  - question: 敏感肌能用吗
+    expect: 适用肤质
+
+# ============================================
+# 场景：适用部位
+# ============================================
+- name: washcare_scene_018_01
+  turns:
+  - question: 可以洗头皮吗
+    expect: 适用部位
+
+- name: washcare_scene_018_02
+  turns:
+  - question: 能用在身体上吗
+    expect: 适用部位
+
+- name: washcare_scene_018_03
+  turns:
+  - question: 脸能用吗
+    expect: 适用部位
+
+- name: washcare_scene_018_04
+  turns:
+  - question: 私处能用吗
+    expect: 适用部位
+
+- name: washcare_tool_scene_015_01
+  turns:
+  - question: 能用在脸上吗
+    expect: 适用部位
+
+
+
+# ============================================
+# 场景：适用季节
+# ============================================
+- name: washcare_scene_019_01
+  turns:
+  - question: 夏天能用吗
+    expect: 适用季节
+
+- name: washcare_scene_019_02
+  turns:
+  - question: 冬季可以用吗
+    expect: 适用季节
+
+- name: washcare_scene_019_03
+  turns:
+  - question: 适合夏季还是冬季
+    expect: 适用季节
+
+# ============================================
+# 场景：见效周期
+# ============================================
+- name: washcare_scene_020_01
+  turns:
+  - question: 去屑多久见效
+    expect: 见效周期
+
+- name: washcare_scene_020_02
+  turns:
+  - question: 多久能改善头痒
+    expect: 见效周期
+
+- name: washcare_scene_020_03
+  turns:
+  - question: 多久看出效果
+    expect: 见效周期
+
+# ============================================
+# 场景：商品质地
+# ============================================
+- name: washcare_scene_021_01
+  turns:
+  - question: 是液体还是膏状
+    expect: 商品质地
+
+- name: washcare_scene_021_02
+  turns:
+  - question: 这个很稀吗
+    expect: 商品质地
+
+- name: washcare_scene_021_03
+  turns:
+  - question: 质地浓稠吗
+    expect: 商品质地
+
+# ============================================
+# 场景：成分表
+# 描述：买家索要完整成分表、配方表、配料表、原料清单，或咨询商品是否含有某种具体成分。
+# ============================================
+- name: washcare_scene_022_01
+  turns:
+  - question: 成分表发我看看
+    expect: 成分表
+
+- name: washcare_scene_022_02
+  turns:
+  - question: 全部成分有哪些
+    expect: 成分表
+
+- name: washcare_scene_022_03
+  turns:
+  - question: 配料表在哪里看
+    expect: 成分表
+
+- name: washcare_scene_022_04
+  turns:
+  - question: 有荧光剂吗
+    expect: 成分表
+
+- name: washcare_scene_022_05
+  turns:
+  - question: 含酒精吗
+    expect: 成分表
+
+- name: washcare_scene_022_06
+  turns:
+  - question: 有水杨酸吗
+    expect: 成分表
+
+- name: washcare_scene_022_07
+  turns:
+  - question: 有没有氨基酸
+    expect: 成分表
+
+- name: washcare_scene_022_08
+  turns:
+  - question: 含不含皂基
+    expect: 成分表
+
+# ============================================
+# 场景：气味/味道
+# ============================================
+- name: washcare_scene_023_01
+  turns:
+  - question: 什么味道
+    expect: 气味/味道
+
+- name: washcare_scene_023_02
+  turns:
+  - question: 香味浓吗
+    expect: 气味/味道
+
+
+
+- name: washcare_scene_023_04
+  turns:
+  - question: 有几种味道
+    expect: 气味/味道
+
+# ============================================
+# 场景：使用频率
+# ============================================
+- name: washcare_scene_024_01
+  turns:
+  - question: 多久用一次
+    expect: 使用频率
+
+- name: washcare_scene_024_02
+  turns:
+  - question: 可以天天用吗
+    expect: 使用频率
+
+- name: washcare_scene_024_03
+  turns:
+  - question: 一天能用几次
+    expect: 使用频率
+
+# ============================================
+# 场景：单次用量
+# ============================================
+
+
+- name: washcare_scene_025_03
+  turns:
+  - question: 洗一次用多少
+    expect: 单次用量
+
+# ============================================
+# 场景：使用顺序
+# ============================================
+- name: washcare_scene_026_01
+  turns:
+  - question: 先用洗发水还是护发素
+    expect: 使用顺序
+
+- name: washcare_scene_026_02
+  turns:
+  - question: 和发膜哪个先用
+    expect: 使用顺序
+
+- name: washcare_scene_026_03
+  turns:
+  - question: 先喷这个还是先洗
+    expect: 使用顺序
+
+# ============================================
+# 场景：是否需要清洗
+# ============================================
+- name: washcare_scene_027_01
+  turns:
+  - question: 用完要洗掉吗
+    expect: 是否需要清洗
+
+- name: washcare_scene_027_02
+  turns:
+  - question: 是不是免洗的
+    expect: 是否需要清洗
+
+- name: washcare_scene_027_03
+  turns:
+  - question: 需要冲洗吗
+    expect: 是否需要清洗
+
+# ============================================
+# 场景：清洗方式
+# ============================================
+- name: washcare_scene_028_01
+  turns:
+  - question: 怎么冲洗
+    expect: 清洗方式
+
+- name: washcare_scene_028_02
+  turns:
+  - question: 用清水洗就行吗
+    expect: 清洗方式
+
+
+
+# ============================================
+# 场景：可使用时长
+# ============================================
+- name: washcare_scene_029_01
+  turns:
+  - question: 一瓶能用多久
+    expect: 可使用时长
+
+- name: washcare_scene_029_02
+  turns:
+  - question: 正常能用几个月
+    expect: 可使用时长
+
+# ============================================
+# 场景：可使用次数
+# ============================================
+- name: washcare_scene_030_01
+  turns:
+  - question: 一瓶能用几次
+    expect: 可使用次数
+
+- name: washcare_scene_030_02
+  turns:
+  - question: 一盒能用多少次
+    expect: 可使用次数
+
+- name: washcare_scene_030_03
+  turns:
+  - question: 正常能撑多少回
+    expect: 可使用次数
+
+# ============================================
+# 场景：保质期
+# ============================================
+- name: washcare_scene_031_01
+  turns:
+  - question: 保质期多久
+    expect: 保质期
+
+- name: washcare_scene_031_02
+  turns:
+  - question: 开封后能放多久
+    expect: 保质期
+
+- name: washcare_scene_031_03
+  turns:
+  - question: 是不是临期
+    expect: 保质期
+
+# ============================================
+# 场景：过敏风险
+# ============================================
+- name: washcare_scene_032_01
+  turns:
+  - question: 会过敏吗
+    expect: 过敏风险
+
+- name: washcare_scene_032_02
+  turns:
+  - question: 会不会发痒
+    expect: 过敏风险
+
+- name: washcare_scene_032_03
+  turns:
+  - question: 会不会泛红
+    expect: 过敏风险
+
+# ============================================
+# 场景：刺激/刺痛风险
+# ============================================
+- name: washcare_scene_033_01
+  turns:
+  - question: 会不会刺激皮肤
+    expect: 刺激/刺痛风险
+
+- name: washcare_scene_033_02
+  turns:
+  - question: 会不会刺痛
+    expect: 刺激/刺痛风险
+
+- name: washcare_scene_033_03
+  turns:
+  - question: 会不会辣眼睛
+    expect: 刺激/刺痛风险
+
+# ============================================
+# 场景：国妆特证
+# ============================================
+- name: washcare_scene_034_01
+  turns:
+  - question: 这款有国妆特证吗
+    expect: 国妆特证
+
+- name: washcare_scene_034_02
+  turns:
+  - question: 防脱的是不是要特证
+    expect: 国妆特证
+
+# ============================================
+# 场景：开启指引
+# ============================================
+
+
+- name: washcare_scene_035_03
+  turns:
+  - question: 盖子怎么打开
+    expect: 开启指引
+
+# ============================================
+# 场景：使用搭配
+# 描述：买家咨询商品能否与其他商品一起搭配、叠加、配合或混合使用。
+# ============================================
+- name: washcare_scene_036_01
+  turns:
+  - question: 可以和柔顺剂一起用吗
+    expect: 使用搭配
+
+- name: washcare_scene_036_02
+  turns:
+  - question: 能混着用吗
+    expect: 使用搭配
+
+- name: washcare_scene_036_03
+  turns:
+  - question: 可以和漂白剂一起用吗
+    expect: 使用搭配
+
+- name: washcare_scene_036_04
+  turns:
+  - question: 能和别的清洁剂混用吗
+    expect: 使用搭配
+
+- name: washcare_scene_036_05
+  turns:
+  - question: 能和护发素一起用吗
+    expect: 使用搭配
+
+# ============================================
+# 场景：清洗难易
+# 描述：买家咨询商品是否容易洗净、是否好清洁、冲洗是否方便、清洗后是否容易残留。
+# ============================================
+- name: washcare_scene_037_01
+  turns:
+  - question: 好不好冲洗
+    expect: 清洗难易
+
+- name: washcare_scene_037_02
+  turns:
+  - question: 会不会冲不干净
+    expect: 清洗难易
+
+- name: washcare_scene_037_03
+  turns:
+  - question: 会不会有残留感
+    expect: 清洗难易
+
+- name: washcare_scene_037_04
+  turns:
+  - question: 洗完会不会假滑
+    expect: 清洗难易
+
+- name: washcare_scene_037_05
+  turns:
+  - question: 要冲很久吗
+    expect: 清洗难易
+
+# ============================================
+# 场景：功能/功效
+# ============================================
+- name: washcare_scene_038_01
+  turns:
+  - question: 去屑吗
+    expect: 功能/功效
+
+- name: washcare_scene_038_02
+  turns:
+  - question: 控油吗
+    expect: 功能/功效
+
+- name: washcare_scene_038_03
+  turns:
+  - question: 柔顺吗
+    expect: 功能/功效
+
+- name: washcare_scene_038_04
+  turns:
+  - question: 修护吗
+    expect: 功能/功效
+
+- name: washcare_scene_038_05
+  turns:
+  - question: 去污力怎么样
+    expect: 功能/功效
+
+- name: washcare_scene_038_06
+  turns:
+  - question: 除螨吗
+    expect: 功能/功效
+
+# ============================================
+# 场景：持续时间
+# ============================================
+- name: washcare_scene_039_01
+  turns:
+  - question: 留香多久
+    expect: 持续时间
+
+- name: washcare_scene_039_02
+  turns:
+  - question: 香味能持续多久
+    expect: 持续时间

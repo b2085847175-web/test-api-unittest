@@ -1,0 +1,6 @@
+target_env: "console"
+cases:
+  - name: 测试1
+    turns:
+      - question: "你好，可以看一下防晒喷雾瓶身背面吗?"
+        expect: "是否有实物图"

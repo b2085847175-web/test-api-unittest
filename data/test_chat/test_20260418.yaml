@@ -1,0 +1,23 @@
+target_env: "dev"
+
+cases:
+  - name: "context_acid_inquiry"
+    context_messages:
+      - role: "user"
+        content: "https://mobile.yangkeduo.com/goods.html?goods_id=692304547749&_oak_rcto=YWKUVy3q7vj92jMreN6qukCDmJySMAsxbQ7XVfrMmfENL2ZkqNXmgpGXE3YvPpfgwL0&page_from=63&_oc_trace_mark=199&_oc_adinfo=eyJwYWdlX3NuIjoxMDAwNywic2NlbmVfaWQiOjcwfQ%3D%3D&_oc_refer_ad=1&_oak_actype=34&_oak_sub_actype=0"
+      - role: "user"
+        content: "果酸浓度多少"
+      - role: "assistant"
+        content: "亲亲，这款产品的具体果酸添加比例配方是保密的，由我们的高级研发室精心调制出效果哦"
+      - role: "assistant"
+        content: "不过您可以放心，它的核心成分是20%的壬二酸和1.5%的水杨酸协同作用，温和又高效地帮您清洁毛孔、去黑头，而且产品非常安全，支持30天无理由退货哈！"
+      - role: "assistant"
+        content: "[图片消息]"
+      - role: "assistant"
+        content: "您用后觉得不喜欢不合适不满意，都支持退货，哪怕是拆封了也是没关系的💞"
+      - role: "assistant"
+        content: "亲亲，这边看见您没有下单是对产品有什么疑惑吗❓可以跟小客服说一下的哦，这边帮您解答的呢~😊"
+      - role: "user"
+        content: "可以去闭口吗"
+    turns:
+      - question: "敏感肌可以用吗"

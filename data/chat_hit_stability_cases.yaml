@@ -1,0 +1,37 @@
+target_env: "dev"
+
+# 稳定性测试执行次数（串行执行，不并发）
+# 表示每个 case 会完整重复运行多少次。
+run_times: 1
+
+# 需要做稳定性验证的用例列表
+cases:
+  # 基础场景：单轮问答
+  # - name: "stability_scene_storage_method"
+  #   # 店铺 ID（必填）
+  #   # 对话轮次（必填），按顺序执行
+  #   turns:
+  #     - question: "这个要怎么保存"
+  #       # expect 支持简写字符串；会自动映射到 scene_knowledge 命中断言
+  #       expect: "储存方式"
+
+  # 上下文场景：先注入历史消息，再发起当前问题
+  - name: "stability_context_product_compare"
+    # 上下文消息（可选），每次 run 都会从这里重新开始
+    context_messages:
+      - role: "user"
+        content: "http://item.taobao.com/item.htm?id=1027827639462"
+      - role: "assistant"
+        content: "这款洁面乳含有水杨酸等成分，坚持使用2-4周可以看到黑头闭口减少、出油量下降的效果哦。"
+      - role: "user"
+        content: "这个能用多久"
+      - role: "assistant"
+        content: "亲亲，这一瓶大概能用1-2个月，具体要看使用频率和用量。"
+      - role: "user"
+        content: "http://item.taobao.com/item.htm?id=794028001620"
+      - role: "assistant"
+        content: "这款是另一款洁面产品，侧重清洁和控油。"
+    turns:
+      - question: "我想要清洁力更强的，推荐哪款？"
+        # expect 也支持完整结构化断言（与其他测试模块一致）
+        expect: "商品推荐与选购建议"

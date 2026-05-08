@@ -1,0 +1,1 @@
+{"type":"chat_response","code":200,"message":"success","data":{"username":"at_scene_two_tu_1774595966499_4a34","ai_actions":[{"actionType":"sendMessage","payload":{"contentType":"text","content":"你好呀宝宝～今天有什么想了解的，随时告诉我哈"}}],"last_msg_time":1774595966},"request_id":"65edc4e5-efa9-4a41-b560-ddb4465f134d"}

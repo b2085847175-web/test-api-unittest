@@ -1,0 +1,29 @@
+{
+  "account": "测试专用1",
+  "inquiry_product": {},
+  "is_test": true,
+  "last_order_info": null,
+  "last_order_time": 1774596056.857104,
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好",
+      "created_at": 1774596046.1319714
+    },
+    {
+      "role": "assistant",
+      "content": "你好呀~有什么可以帮到宝宝的吗~😊",
+      "created_at": 1774596055.8344896
+    },
+    {
+      "role": "user",
+      "content": "现在有什么活动和优惠吗？",
+      "created_at": 1774596056.857104
+    }
+  ],
+  "platform": "tmall",
+  "request_id": "374a8485-13a9-4b55-90b3-64bf94eb5973",
+  "shop_id": "585",
+  "shop_name": "儒意化妆品旗舰店",
+  "username": "at_scene_two_tu_1774596046131_8b0c"
+}

@@ -1,0 +1,11 @@
+target_env: "console"
+
+cases:
+  - name: "context_product_function_inquiry"
+    context_messages:
+      - role: "user"
+        content: "这一款去痘痘痘印管用吗？"
+      - role: "user"
+        content: "黑头粉刺管用吗"
+    turns:
+      - question: "功能都有啥"

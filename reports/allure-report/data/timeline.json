@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-VO7C9Q1F77H",
+    "children" : [ {
+      "name" : "19424-MainThread",
+      "children" : [ {
+        "name" : "test_chat_and_quality_flow[scene_two_turn_mixed_assert]",
+        "uid" : "d89b179b74263b09",
+        "parentUid" : "91c53cac6fd481ec901c833b4c6d4005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1774595966500,
+          "stop" : 1774595991945,
+          "duration" : 25445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'scene_two_turn_mixed_assert', 'shop_id': '585', 'turns': [{'question': '你好'}, {'question': '现在有什么活动和优惠吗？', 'expect': '活动与促销规则'}, {'question': '这个商品有运费险吗', 'expect': '运费险与退运费服务'}]}" ]
+      } ],
+      "uid" : "91c53cac6fd481ec901c833b4c6d4005"
+    }, {
+      "name" : "29492-MainThread",
+      "children" : [ {
+        "name" : "test_chat_and_quality_flow[scene_two_turn_mixed_assert]",
+        "uid" : "c5b7396115ff7861",
+        "parentUid" : "95e64a506c00e943d8d393b2823df776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1774596046132,
+          "stop" : 1774596085047,
+          "duration" : 38915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': 'scene_two_turn_mixed_assert', 'shop_id': '585', 'turns': [{'question': '你好'}, {'question': '现在有什么活动和优惠吗？', 'expect': '活动与促销规则'}, {'question': '这个商品有运费险吗', 'expect': '运费险与退运费服务'}]}" ]
+      } ],
+      "uid" : "95e64a506c00e943d8d393b2823df776"
+    } ],
+    "uid" : "6b494793dae32004e7ad0c05a1621787"
+  } ]
+}

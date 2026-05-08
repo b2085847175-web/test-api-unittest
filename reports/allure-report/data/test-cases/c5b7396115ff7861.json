@@ -1,0 +1,377 @@
+{
+  "uid" : "c5b7396115ff7861",
+  "name" : "test_chat_and_quality_flow[scene_two_turn_mixed_assert]",
+  "fullName" : "testcases.test_chat_yaml#test_chat_and_quality_flow",
+  "historyId" : "8800801f319557825f3f33428fbb36a3",
+  "time" : {
+    "start" : 1774596046132,
+    "stop" : 1774596085047,
+    "duration" : 38915
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1774596046006,
+      "stop" : 1774596046084,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_environment",
+    "time" : {
+      "start" : 1774596046086,
+      "stop" : 1774596046087,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "access_token",
+    "time" : {
+      "start" : 1774596046087,
+      "stop" : 1774596046129,
+      "duration" : 42
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST https://dev.zhiyan.chat/api/auth/login",
+      "time" : {
+        "start" : 1774596046087,
+        "stop" : 1774596046127,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31c304694641d674",
+        "name" : "request_json",
+        "source" : "31c304694641d674.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "156ef90edda50bd9",
+        "name" : "status_code",
+        "source" : "156ef90edda50bd9.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "702b1171359834c7",
+        "name" : "response_body",
+        "source" : "702b1171359834c7.txt",
+        "type" : "text/plain",
+        "size" : 539
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "authenticated_apis",
+    "time" : {
+      "start" : 1774596046130,
+      "stop" : 1774596046131,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST https://dev.zhiyan.chat/chat/answer",
+      "time" : {
+        "start" : 1774596046132,
+        "stop" : 1774596055834,
+        "duration" : 9702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fe8c70468f02e54",
+        "name" : "request_json",
+        "source" : "3fe8c70468f02e54.json",
+        "type" : "application/json",
+        "size" : 459
+      }, {
+        "uid" : "25e6481c8b821314",
+        "name" : "status_code",
+        "source" : "25e6481c8b821314.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "812911e96c6280c5",
+        "name" : "response_body",
+        "source" : "812911e96c6280c5.txt",
+        "type" : "text/plain",
+        "size" : 329
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://dev.zhiyan.chat/api/quality-inspection/user-detail",
+      "time" : {
+        "start" : 1774596055839,
+        "stop" : 1774596055851,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c13bf107f0841fb3",
+        "name" : "status_code",
+        "source" : "c13bf107f0841fb3.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "f8154c08a39fde4e",
+        "name" : "response_body",
+        "source" : "f8154c08a39fde4e.txt",
+        "type" : "text/plain",
+        "size" : 1044
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST https://dev.zhiyan.chat/chat/answer",
+      "time" : {
+        "start" : 1774596056857,
+        "stop" : 1774596065197,
+        "duration" : 8340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffd279c39c660a7a",
+        "name" : "request_json",
+        "source" : "ffd279c39c660a7a.json",
+        "type" : "application/json",
+        "size" : 736
+      }, {
+        "uid" : "6668b94152a0f8e5",
+        "name" : "status_code",
+        "source" : "6668b94152a0f8e5.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "652d4f58459193aa",
+        "name" : "response_body",
+        "source" : "652d4f58459193aa.txt",
+        "type" : "text/plain",
+        "size" : 503
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://dev.zhiyan.chat/api/quality-inspection/user-detail",
+      "time" : {
+        "start" : 1774596065197,
+        "stop" : 1774596065213,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29213dd156a6ad42",
+        "name" : "status_code",
+        "source" : "29213dd156a6ad42.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "7a00b86152773751",
+        "name" : "response_body",
+        "source" : "7a00b86152773751.txt",
+        "type" : "text/plain",
+        "size" : 1228
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST https://dev.zhiyan.chat/chat/answer",
+      "time" : {
+        "start" : 1774596066229,
+        "stop" : 1774596085033,
+        "duration" : 18804
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2343f56640aba76",
+        "name" : "request_json",
+        "source" : "2343f56640aba76.json",
+        "type" : "application/json",
+        "size" : 1202
+      }, {
+        "uid" : "1896f779d09b88d1",
+        "name" : "status_code",
+        "source" : "1896f779d09b88d1.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "a709ba044c5b4e79",
+        "name" : "response_body",
+        "source" : "a709ba044c5b4e79.txt",
+        "type" : "text/plain",
+        "size" : 486
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET https://dev.zhiyan.chat/api/quality-inspection/user-detail",
+      "time" : {
+        "start" : 1774596085033,
+        "stop" : 1774596085047,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eecb7ab4b0febd46",
+        "name" : "status_code",
+        "source" : "eecb7ab4b0febd46.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "39b870ab09a53500",
+        "name" : "response_body",
+        "source" : "39b870ab09a53500.txt",
+        "type" : "text/plain",
+        "size" : 1341
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "authenticated_apis::0",
+    "time" : {
+      "start" : 1774596085047,
+      "stop" : 1774596085050,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_environment::0",
+    "time" : {
+      "start" : 1774596085051,
+      "stop" : 1774596085051,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_chat_yaml"
+  }, {
+    "name" : "host",
+    "value" : "WIN-VO7C9Q1F77H"
+  }, {
+    "name" : "thread",
+    "value" : "29492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_chat_yaml"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'name': 'scene_two_turn_mixed_assert', 'shop_id': '585', 'turns': [{'question': '你好'}, {'question': '现在有什么活动和优惠吗？', 'expect': '活动与促销规则'}, {'question': '这个商品有运费险吗', 'expect': '运费险与退运费服务'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d89b179b74263b09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1774595966500,
+        "stop" : 1774595991945,
+        "duration" : 25445
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5b7396115ff7861.json",
+  "parameterValues" : [ "{'name': 'scene_two_turn_mixed_assert', 'shop_id': '585', 'turns': [{'question': '你好'}, {'question': '现在有什么活动和优惠吗？', 'expect': '活动与促销规则'}, {'question': '这个商品有运费险吗', 'expect': '运费险与退运费服务'}]}" ]
+}

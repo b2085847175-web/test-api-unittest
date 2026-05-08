@@ -1,0 +1,1 @@
+{"type":"chat_response","code":200,"message":"success","data":{"username":"at_scene_two_tu_1774596046131_8b0c","ai_actions":[{"actionType":"sendMessage","payload":{"contentType":"text","content":"你好呀~有什么可以帮到宝宝的吗~😊"}}],"last_msg_time":1774596046},"request_id":"aff36cbf-3261-44a0-b179-a9691c1a3111"}

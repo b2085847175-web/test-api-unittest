@@ -1,0 +1,114 @@
+target_env: "prod"
+
+cases:
+# 分类：商品咨询（价格相关场景）
+
+# ============================================
+# 场景：价格变动
+# 描述：买家咨询同一商品在不同时间的价格变化情况，包括涨价、降价、恢复原价、活动价结束、今天和昨天价格不同等，不包含不同商品、不同规格之间的价格差异，也不包含退差价、保价诉求。
+# ============================================
+- name: price_scene_001_01
+  turns:
+  - question: 怎么涨价了
+    expect: 价格变动
+
+- name: price_scene_001_02
+  turns:
+  - question: 怎么又降价了
+    expect: 价格变动
+
+- name: price_scene_001_03
+  turns:
+  - question: 昨天不是这个价格
+    expect: 价格变动
+
+- name: price_scene_001_04
+  turns:
+  - question: 怎么今天价格不一样
+    expect: 价格变动
+
+- name: price_scene_001_05
+  turns:
+  - question: 活动结束了吗怎么变贵了
+    expect: 价格变动
+
+- name: price_scene_001_06
+  turns:
+  - question: 前两天还便宜点
+    expect: 价格变动
+
+- name: price_scene_001_07
+  turns:
+  - question: 怎么恢复原价了
+    expect: 价格变动
+
+- name: price_scene_001_08
+  turns:
+  - question: 价格怎么变了
+    expect: 价格变动
+
+- name: price_scene_001_09
+  turns:
+  - question: 刚刚看不是这个价
+    expect: 价格变动
+
+- name: price_scene_001_10
+  turns:
+  - question: 怎么现在比之前贵了
+    expect: 价格变动
+
+# ============================================
+# 场景：商品价格
+# 行业：行业通用
+# 分类：商品咨询
+# 描述：买家直接询问商品当前售价、单价、到手价或某个链接、规格卖多少钱，不包含嫌贵、议价、优惠诉求，也不包含价格变动、降价、保价、退差价等问题。
+# ============================================
+- name: price_scene_002_01
+  turns:
+  - question: 这个多少钱
+    expect: 商品价格
+
+- name: price_scene_002_02
+  turns:
+  - question: 这款卖多少
+    expect: 商品价格
+
+- name: price_scene_002_03
+  turns:
+  - question: 现在什么价格
+    expect: 商品价格
+
+- name: price_scene_002_04
+  turns:
+  - question: 到手价多少
+    expect: 商品价格
+
+- name: price_scene_002_05
+  turns:
+  - question: 这个规格多少钱
+    expect: 商品价格
+
+- name: price_scene_002_06
+  turns:
+  - question: 这件衣服多少钱
+    expect: 商品价格
+
+- name: price_scene_002_07
+  turns:
+  - question: 这瓶多少钱
+    expect: 商品价格
+
+- name: price_scene_002_08
+  turns:
+  - question: 一件多少钱
+    expect: 商品价格
+
+- name: price_scene_002_09
+  turns:
+  - question: 现在卖多少钱
+    expect: 商品价格
+
+- name: price_scene_002_10
+  turns:
+  - question: 这个链接是多少钱
+    expect: 商品价格

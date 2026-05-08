@@ -1,0 +1,1 @@
+{"type":"chat_response","code":200,"message":"success","data":{"username":"at_scene_two_tu_1774595966499_4a34","ai_actions":[{"actionType":"sendMessage","payload":{"contentType":"text","content":"宝宝，目前没有特别的活动呢，不过我们产品一直很优惠哦～"}}],"last_msg_time":1774595973},"request_id":"e8f200c4-b7fe-4487-a618-9f91bf860916"}

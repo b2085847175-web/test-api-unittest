@@ -1,0 +1,50 @@
+# API 自动化测试框架依赖包
+# Python 3.10+ 环境
+
+# 测试框架使用 Python 标准库 unittest，无需额外依赖
+
+# HTTP 请求
+requests==2.31.0
+urllib3==1.26.16
+
+# 数据格式处理
+PyYAML==6.0.1
+
+# 日志管理
+loguru==0.7.0
+
+# 数据库操作
+PyMySQL==1.1.0
+
+# 数据比较
+deepdiff==6.3.0
+
+# 日期时间处理
+python-dateutil==2.8.2
+
+# 数据生成
+Faker==18.11.2
+
+# 环境变量管理
+python-dotenv==1.0.0
+
+# 代码质量检查
+flake8==6.0.0
+black==23.3.0
+isort==5.12.0
+
+# 类型检查
+mypy==1.4.1
+types-PyYAML==6.0.12.9
+types-requests==2.31.0.1
+
+# 开发工具
+pre-commit==3.3.3
+
+# 可选依赖（根据实际需要启用）
+# redis==4.5.5              # Redis 客户端
+# pymongo==4.4.1            # MongoDB 客户端
+# sqlalchemy==2.0.19        # SQL 工具包
+# openpyxl==3.1.2           # Excel 文件处理
+# pandas==2.0.3             # 数据分析
+# numpy==1.24.3             # 数值计算

@@ -1,0 +1,8 @@
+target_env: "dev"
+
+cases:
+  - name: 测试1
+    turns:
+      - question: "我等着收5元"
+        expect: "打招呼"
+   

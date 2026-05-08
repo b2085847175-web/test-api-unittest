@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.test_chat_yaml",
+    "children" : [ {
+      "name" : "test_chat_and_quality_flow[scene_two_turn_mixed_assert]",
+      "uid" : "c5b7396115ff7861",
+      "parentUid" : "d4d765f89829f19fc5480a3fed888479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1774596046132,
+        "stop" : 1774596085047,
+        "duration" : 38915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': 'scene_two_turn_mixed_assert', 'shop_id': '585', 'turns': [{'question': '你好'}, {'question': '现在有什么活动和优惠吗？', 'expect': '活动与促销规则'}, {'question': '这个商品有运费险吗', 'expect': '运费险与退运费服务'}]}" ]
+    } ],
+    "uid" : "testcases.test_chat_yaml"
+  } ]
+}
